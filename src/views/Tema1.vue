@@ -259,8 +259,15 @@
           .col-6.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img-9.svg')
+    
+    Separador 
 
+    .titulo-segundo.color-acento-botones
+      h2#t_1_4 1.4 Logística inversa o reversa
+    
+    p.mb-5 Tiene como función el reciclaje y recuperación de los empaques, envases y residuos peligrosos, de la misma manera, del retorno de mercancías no conformes de acuerdo con los requerimientos pactados con el cliente. Es una forma de retorno de materiales que reutilizan, reciclan o destruyen, ver figura 1.
 
+    
 
 
     //- .d-flex.flex-wrap.align-items-start.mb-5.position-relative
