@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Costeo de procesos logístico',
+    descripcionCurso:
+      'La administración eficiente de costos es esencial para lograr precios competitivos y mantener la calidad en un mercado volátil. La contabilidad de costos en procesos logísticos revela costos en la cadena de suministro. El capítulo de presupuestos proporciona herramientas para proyectar los recursos económicos de la organización. Este componente formativo brinda conocimientos sólidos sobre la salud financiera a través de los estados financieros y los indicadores de gestión financiera.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/float-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/float-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/float-3.svg'),
       },
     ],
   },
@@ -31,13 +36,43 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Costos en la gestión logística',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Introducción a la administración de los costos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Clasificación de los costos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Distribución de costos en los procesos logísticos',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Logística inversa o reversa',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Costos ocultos',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Costos de calidad',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Costos de calidad',
+            hash: 't_1_7',
           },
         ],
       },
@@ -45,14 +80,77 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Contabilidad de costos y costeo de los procesos logísticos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Clasificación sistemas de costo',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo:
+              'Diferencia entre costo y gastos de los procesos logísticos',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Los presupuestos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Presupuestos en los procesos Logísticos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Presupuestos en los procesos Logísticos',
+            hash: 't_2_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Estados Financieros',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Estado de la situación financiera - balance general',
+            hash: 't_1_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Estado de resultados',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Estado de resultados',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Normas Internacionales de Información Financiera - NIIF',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Análisis financiero',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Indicadores de gestión financieras',
+            hash: 't_4_6',
+          },
+        ],
       },
     ],
     subMenu: [
