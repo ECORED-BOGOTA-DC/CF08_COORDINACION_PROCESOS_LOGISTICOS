@@ -157,3 +157,47 @@
 .titulo-sexto
   span
     font-weight: normal
+
+.img-infografica
+  .img-infografica__content
+    .img-infografica__item
+      .img-infografica__item__dot
+        &::before
+          background-color: #12263F
+          opacity: 1
+        &::after
+          background-color: #12263F
+.tarjeta-infografia
+  position: relative
+  span.number-edit
+    position: absolute
+    bottom: 0
+    right: .5rem
+    font-size: 49px
+    color: #E8E8E8
+    font-weight: bold
+    opacity: .43
+.tarjeta-avatar-b-1
+  .tarjeta-avatar-b__img
+    position: relative
+    z-index: 2
+  .tarjeta
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      width: 6px
+      height: 74%
+      top: 13%
+      right: 0
+    &-e-1
+      &::before
+        background-color: #91B3FA
+    &-e-2
+      &::before
+        background-color: #57DBD8
+.tarjeta-edit-acordion
+  background-color: #E0E7FD
+  transition: all .5s ease-in-out
+  &.acordion__activo
+    background-color: #F6F6F6

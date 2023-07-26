@@ -342,9 +342,9 @@
               h3.mb-1 Logística inversa, más que un costo en la SCM
               p.text-small Con la siguiente lectura complementaría se obtendrá un enfoque adicional de la importancia que tiene la logística inversa para la administración de la cadena de suministro o Supply Chain Management por su origen anglosajón.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" style="background-color: #E6B046")
-                span Descargar
-                i.fas.fa-file-download
+              a.boton.color-acento-botones(href="https://zonalogistica.com/logistica-inversa-mas-que-un-c-en-la-scm/" target="_blank" style="background-color: #E6B046")
+                span Ir a página
+                i.fas.fa-link
 
     Separador 
 
@@ -431,19 +431,62 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 5
         span.d-block Colores de la economía
-      ImagenInfografica.color-secundario.mb-5
+      ImagenInfografica.color-secundario.mb-5.w-100.d-none.d-md-block
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/img-23.svg')
             figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Los sectores de la economía (2019).
 
-        .tarjeta.color-acento-botones.text-white.p-3(x="20%" y="20%" numero="+" style="background-color: #12263F")
-        .tarjeta.color-acento-botones.text-white.p-3(x="23%" y="20%" numero="+" style="background-color: #12263F")
-        .tarjeta.color-acento-botones.text-white.p-3(x="26%" y="20%" numero="+" style="background-color: #12263F")
-        .tarjeta.color-acento-botones.text-white.p-3(x="29%" y="20%" numero="+" style="background-color: #12263F")
-        .tarjeta.color-acento-botones.text-white.p-3(x="32%" y="20%" numero="+" style="background-color: #12263F")
-        .tarjeta.color-acento-botones.text-white.p-3(x="35%" y="20%" numero="+" style="background-color: #12263F")
-        .tarjeta.color-acento-botones.text-white.p-3(x="38%" y="20%" numero="+" style="background-color: #12263F")
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="59%" y="10%" numero="+" style="background-color: #12263F")
+          span.number-edit 01
+          p Hace referencia al consumismo como el centro del crecimiento económico.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="82%" y="21%" numero="+" style="background-color: #12263F")
+          span.number-edit 02
+          p Toma en cuenta el avance tecnológico sin dejar a un lado el cuidado del medio ambiente.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="87%" y="53%" numero="+" style="background-color: #12263F")
+          span.number-edit 03
+          p Consiste en englobar todos los ingresos de las artes y todos aquellos productos y servicios de la actividad artística y cultural.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="71.5%" y="74%" numero="+" style="background-color: #12263F")
+          span.number-edit 04
+          p Hace referencia a la economía ilegal, a las actividades que están prohibidas.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="46%" y="74%" numero="+" style="background-color: #12263F")
+          span.number-edit 05
+          p Hace referencia a todas las actividades que son legales, pero están ocultas ante el Estado para evitar el pago de impuestos.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="31%" y="53%" numero="+" style="background-color: #12263F")
+          span.number-edit 06
+          p Está enfocada en los productos de alta tecnología y de la ciencia.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="36%" y="20%" numero="+" style="background-color: #12263F")
+          span.number-edit 07
+          p Busca cuidar el planeta aprovechando al máximo los recursos e infraestructuras que se poseen actualmente.
+      p.d-block.d-md-none La economía es una ciencia social que además de poder ser analizada desde distintos sectores también se puede analizar a través de los colores, tomando en cuenta que los elementos comunes de cada sector, para así observar los productos que se obtienen en cada área o actividad realizada.
+
+      ImagenInfografica.color-secundario.mb-5.w-100.d-block.d-md-none
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/temas/tema1/img-23_1.svg')
+            figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Los sectores de la economía (2019).
+
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="50%" y="9%" numero="+" style="background-color: #12263F")
+          span.number-edit 01
+          p Hace referencia al consumismo como el centro del crecimiento económico.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="78%" y="19%" numero="+" style="background-color: #12263F")
+          span.number-edit 02
+          p Toma en cuenta el avance tecnológico sin dejar a un lado el cuidado del medio ambiente.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="83.5%" y="45%" numero="+" style="background-color: #12263F")
+          span.number-edit 03
+          p Consiste en englobar todos los ingresos de las artes y todos aquellos productos y servicios de la actividad artística y cultural.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="65.5%" y="65%" numero="+" style="background-color: #12263F")
+          span.number-edit 04
+          p Hace referencia a la economía ilegal, a las actividades que están prohibidas.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="33.5%" y="65%" numero="+" style="background-color: #12263F")
+          span.number-edit 05
+          p Hace referencia a todas las actividades que son legales, pero están ocultas ante el Estado para evitar el pago de impuestos.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="16%" y="47%" numero="+" style="background-color: #12263F")
+          span.number-edit 06
+          p Está enfocada en los productos de alta tecnología y de la ciencia.
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="22%" y="19%" numero="+" style="background-color: #12263F")
+          span.number-edit 07
+          p Busca cuidar el planeta aprovechando al máximo los recursos e infraestructuras que se poseen actualmente.
 
 
     p.mb-5 La economía tiene dos ramas, centradas en el estudio de la economía y sus diferentes variables según Economipedia (2020), ver figura 6:
