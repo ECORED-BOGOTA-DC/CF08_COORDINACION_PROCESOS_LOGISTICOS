@@ -302,7 +302,7 @@
               li.d-flex.align-items-start.pb-2.mb-2
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 Custodia y conservación de los inventarios.
-            ul.lista-ul--separador.mb-0.col-lg-6.pe-lg-3
+            ul.lista-ul--separador.mb-0.col-lg-6.ps-lg-3
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 Almacenamiento en tránsito.

@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
+        span 4
       h1 Los Estados Financieros 
     
     .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -73,7 +73,493 @@
       h2#t_4_1 4.1 Estado de la situación financiera - balance general
     
     p El estado de la situación financiera, también llamado balance general lo componen tres (3) grandes cuentas que están representadas así:
+
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-primario.p-5(style="background-color: #C4F2F1")
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema4/img-5.svg')
+          
+        h4 Activos
+        p Lo que posee la empresa y se componen de activos corrientes y activos fijos.
+
+      .col-md.tarjeta.color-acento-botones.p-5(style="background-color: #D8E4FD")
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema4/img-6.svg')
+          
+        h4 Pasivos
+        p Son las deudas de la empresa a corto, mediano y largo plazo.
+
+      .col-md.tarjeta.color-acento-contenido.p-5(style="background-color: #C4F2F1")
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema4/img-7.svg')
+          
+        h4 Patrimonio
+        p Diferencia entre la resta de los activos - pasivos. 
     
+    .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
+      p.mb-0 Dentro de sus objetivos esta mostrar el estado actual de la situación financiera de la empresa, el valor de sus activos y pasivos y en que están representados, el capital actual, los excedentes de la empresa, entre otros. Este balance general, ver figura 11, se realiza en periodos anuales contables de conformidad con la Ley Estatutaria.
+    
+    .mx-auto.col-lg-10.mb-5
+      .titulo-sexto.color-acento-botones(data-aos="fade-right")
+        h5 Figura 11
+        span.d-block Ejemplo del Balance General de una Empresa
+      .tabla-a.color-primario.mb-3
+        table
+          thead
+            tr(style="background-color: #E9F0FE")
+              th(colspan="4") Balance general en forma de cuenta
+          tbody(style="background-color: white;")
+            tr
+              td
+                p.fw-bold ACTIVO
+                p.fw-bold.mb-2 Activo corriente
+                p Caja
+                  br
+                  |Instituciones financieras
+                  br
+                  |Inversiones disponibles para la venta
+                  br
+                  |Documentos por cobrar comerciales
+                  br
+                  |Inversiones mantenidas hasta el vencimiento
+                  br
+                  |Inventarios
+                p.fw-bold.mb-2 Activo no corriente
+                p Edificios
+                  br
+                  |Vehiculos $7.689.432,00
+                  br
+                  |Maquinaria
+                  br
+                  |Propiedad, planta y equipo
+                  br
+                  |Inversiones de largo plazo
+                  br
+                  |Otros activos no corrientes
+                  br
+                  |Activo diferido
+
+              td
+                p.fw-bold $113.053.092,82
+                p.fw-bold.mb-2 $22.988.088,42
+                p.fw-bold $201,00
+                  br
+                  |$4.762.000,12
+                  br
+                  |$230.796,24
+                  br
+                  |$1.264.215,74
+                  br
+                  |$7.140.369,46
+                  br
+                  |$9.590.505,86
+                p.fw-bold.mb-2 $90.065.004,40
+                p.fw-bold $60.879.546,00
+                  br
+                  |$7.689.432,00
+                  br
+                  |$14.587.019,92
+                  br
+                  |$83.155.997,92
+                  br
+                  |$266.659,69
+                  br
+                  |$6.245.671,59
+                  br
+                  |$396.675,20
+              td
+                p.fw-bold PASIVO
+                p.fw-bold.mb-2 Pasivo corriente
+                p Documentos por pagar a bancos
+                  br
+                  |Cuentas por pagar a proveedores
+                  br
+                  |Otros pasivos corrientes
+                  br
+                  br
+                  |Pasivo no corriente
+                  br
+                  |Documentos por pagar a relacionados
+                  br
+                  |Documentos por pagar a bancos
+                  br
+                  |Otros pasivos no corriente
+
+                p.fw-bold.mb-2 PATRIMONIO
+                p Capital
+                  br
+                  |Reserva legal
+                  br
+                  |Reserva facultativa
+                  br
+                  |Utilidades acumuladas
+                  br
+                  |Utilidades del ejercicio
+
+              td
+                p.fw-bold $42.894.673,76
+
+                p.fw-bold.mb-2 $11.666.184,36
+                p.fw-bold $1.500.000,00
+                  br
+                  |$5.321.438,76
+                  br
+                  |$4.844.745,60
+
+                p.fw-bold $31.228.489,40
+                  br
+                  |$5.824.035,75
+                  br
+                  |$22.994.065,93
+                  br
+                  |$2.410.387,72
+
+                p.fw-bold.mb-2 $70.158.419,06
+                p.fw-bold $31.571.288,58
+                  br
+                  |$3.157.128,86
+                  br
+                  |$2.104.752,57
+                  br
+                  |$21.047.525,72
+                  br
+                  |$12.277.723,34
+      figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Ejemplo del Estado de Situación Financiera de una empresa (2020).
+    
+    Separador 
+
+    .titulo-segundo.color-acento-botones
+      h2#t_4_2 4.2 Estado de resultados
+    
+    .d-flex.flex-wrap.align-items-start.mb-5.position-relative
+      img.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-8.png" style="max-width: 505px;" data-aos="fade-right")
+      .col-lg-8.col-xl-7.ps-lg-4
+        p Refleja el comportamiento de los ingresos y egresos de la entidad; según la actividad comercial a que se dedique; la información presentada es de acuerdo con el periodo de tiempo que se elija para presentar este informe financiero. De igual manera nos brinda una información sobre los ingresos y egresos de la empresa, si se ha perdido o se ha ganado durante el periodo de tiempo que se está procesando la información; se realiza luego de procesar la información contable.
+        p Los conceptos que hacen parte del estado de resultados son, ver figura 12:
+        .d-flex.flex-wrap
+          ul.lista-ul--separador.mb-0.col-lg-6.pe-lg-3
+            li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
+              img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+              p.mb-0 Ingresos totales.
+            li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
+              img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+              p.mb-0 Ingresos netos.
+            li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
+              img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+              p.mb-0 Compras totales.
+            li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
+              img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+              p.mb-0 Compras netas.
+            li.d-flex.align-items-start.pb-2.mb-2
+              img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+              p.mb-0 Costos.
+          ul.lista-ul--separador.mb-0.col-lg-6.ps-lg-3
+            li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
+              img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+              p.mb-0 Gastos.
+            li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
+              img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+              p.mb-0 Utilidad.
+            li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
+              img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+              p.mb-0 Perdidas.
+            li.d-flex.align-items-start.pb-2.mb-2
+              img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+              p.mb-0 Utilidad neta, o pérdida neta.
+
+    .mx-auto.col-lg-10.mb-5
+      .titulo-sexto.color-acento-botones(data-aos="fade-right")
+        h5 Figura 12
+        span.d-block Ejemplo Estructura básica del estado de resultados
+      .tabla-a.color-primario.mb-3
+        table
+          thead
+            tr(style="background-color: #E9F0FE")
+              th(colspan="4")
+                p.mb-0.fw-bold.mx-auto(style="max-width: 300px") Empresa practica Ltda Estado de resultados 1 de enero al 31 de diciembre de 2007
+          tbody(style="background-color: white;")
+            tr
+              td
+                p.fw-bols Ingresos
+                p.fw-bold.mb-2 Ingresos operacionales
+                p Comercio al por mayor y menor
+                  br
+                  |Menos: devoluciones en ventas
+                  br
+                p.fw-bold.mb-0 Mas: ingresos no operacionales
+                p.mb-2 Arrendamientos
+                  br
+                  |Utilidad en veta de inversiones
+                p.fw-bold.mb-2 Total ingresos netos
+                p.mb-0 Costo de ventas
+                p Inventario inicial
+                  br
+                  |Mas: compras
+                  br
+                  |Menos: inventario final
+                  br
+                  |Total costo de ventas
+                  br
+                  |Utilidad bruta en ventas
+                p.fw-bold.mb-2 Gastos
+                p.fw-bold.mb-2 Gastos operacionales de administración
+                p Personal
+                  br
+                  |Servicios
+                  br
+                  |Legales
+                  br
+                  |Mantenimiento y reparaciones
+                  br
+                  |Depreciaciones
+                  br
+                  |Diversos
+                p.fw-bold.mb-2 Operacionales de ventas
+                p.mb-2 Personal
+                  br
+                  |Diversos
+                p.fw-bold.mb-2 Gastos no operacionales
+                  br
+                  |Financieros
+                p.fw-bold.mb-2 Total gastos de administración y ventas
+                  br
+                  |Utilidad antes de impuestos y reservas
+                p.mb-2 Menos: impuesto sobre la renta 34%
+                p.fw-bold.mb-2 Utilidad liquida
+                p.mb-2 Menos: reservas
+                  br
+                  |Reserva legal 10% utilidad liquida
+                p.fw-bold.mb-2 Resultado del periodo
+              td
+              td
+              td
+      figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Modelo de estado de resultados (s.f.).
+    
+    .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
+      p.mb-0 Para los propietarios, inversionistas (futuros inversores) y comunidad en general siempre va a ser muy interesante saber si una empresa, tiene utilidades o perdidas, ello contribuye a mejorar su imagen en el mercado.
+    
+    Separador 
+
+    .titulo-segundo.color-acento-botones
+      h2#t_4_3 4.3 Estado de costo producción y venta
+    
+    .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img-9.jpg')})`}"
+      )
+      .bloque-texto-g__texto.p-4(data-aos="fade-right")
+        p.mb-0 El estado de costo producción y venta es generado por la necesidad de conocer exactamente los costos de producción y venta en un período específico. Es importante dar claridad que no es un estado financiero básico, ni oficial, es de uso estrictamente interno de las organizaciones, se genera en la parte contable luego de procesar la información relacionada, ver figura 13.
+    
+    .mx-auto.col-lg-10.mb-5
+      .titulo-sexto.color-acento-botones(data-aos="fade-right")
+        h5 Figura 12
+        span.d-block Ejemplo Estructura básica del estado de resultados
+      .tabla-a.color-primario.mb-3
+        table
+          thead
+            tr(style="background-color: #E9F0FE")
+              th Descripción
+              th Parcial
+              th Total
+          tbody(style="background-color: white;")
+            tr
+              td.fw-bold Costos incurridos en la producción
+              td
+              td
+            tr(style="background-color: #F9FBFF")
+              td Materias primas
+              td
+              td
+            tr
+              td Inventario inicial de materia prima
+              td.fw-bold 75.00
+              td
+            tr(style="background-color: #F9FBFF")
+              td + Compras netas de materia prima
+              td.fw-bold 43.500
+              td
+            tr
+              td Total de la materia prima disponible
+              td.fw-bold 118.500
+              td
+            tr(style="background-color: #F9FBFF")
+              td - Inventario final de materia prima
+              td.fw-bold (31.500)
+              td
+            tr
+              td Costo de materia prima utilizada
+              td.fw-bold 87.000
+              td
+            tr(style="background-color: #F9FBFF")
+              td - Materia prima indirecta utilizada
+              td.fw-bold (12.000)
+              td
+            tr
+              td Materia prima directa utilizada
+              td.fw-bold 75.000
+              td
+            tr(style="background-color: #F9FBFF")
+              td + Mano de obra directa
+              td.fw-bold 45.000
+              td
+            tr
+              td.fw-bold Costo primo
+              td.fw-bold 120.000
+              td
+            tr(style="background-color: #F9FBFF")
+              td + Gastos indirectos de fabricación
+              td.fw-bold 55.500
+              td
+            tr
+              td Costo de la producción del periodo
+              td
+              td.fw-bold 175.500
+            tr(style="background-color: #F9FBFF")
+              td + Inventario inicial de producción en proceso
+              td
+              td.fw-bold 35.000
+            tr
+              td Total de la producción en proceso disponible
+              td
+              td.fw-bold 210.000
+            tr(style="background-color: #F9FBFF")
+              td - Inventario final de producción en proceso
+              td
+              td.fw-bold (42.500)
+            tr
+              td Costo de la producción terminada del periodo
+              td
+              td.fw-bold 168.000
+            tr(style="background-color: #F9FBFF")
+              td + Inventario inicial de artículos terminados
+              td
+              td.fw-bold 30.000
+            tr
+              td Total de los artículos terminados disponibles
+              td
+              td.fw-bold 198.000
+            tr(style="background-color: #F9FBFF")
+              td - Inventario final de artículos terminados
+              td
+              td.fw-bold (10.000)
+            tr
+              td.fw-bold  Costo de ventas 
+              td
+              td.fw-bold 188.000
+      figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Contaestudio (2020).
+    
+    .bloque-texto-d.color-primario.p-4.col-lg-10.mx-auto.mb-5(style="border-top: 1px solid #12263F")
+      .bloque-texto-d__texto.mb-2
+        i.fas.fa-quote-left(style="color: #91B3FA")
+        p.mb-0 El costo de producción o costo de operación es el gasto necesario para fabricar un bien o servicio
+        i.w-100.fas.fa-quote-right(style="color: #91B3FA")
+      .bloque-texto-d__autor 
+        .h5.mb-0 - Ecomipedia (2020)
+
+    .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 79%);")
+      img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-10.svg" style="max-width: 136px;" data-aos="fade-right")
+      .col-md.ps-md-4
+        p.fw-bold.mb-0 “A través del estado de costos de producción y ventas se obtiene información del consumo de materia prima usada, mano de obra empleada, el proceso de producción y costos necesarios en la producción para establecer el precio en el mercado”.
+        .d-flex.justify-content-end.align-items-center
+          span(style="min-width: 18px; min-height: 18px; max-height: 18px; background-color: #4ADBD1")
+          p.mb-0.ps-2.fw-bold Singuenza (2019)
+
+    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-5(style="background: linear-gradient(180deg, #2C6AEB 0%, rgba(26,15,145,1) 100%);")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/decorador-5.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0.texto-blanco
+              h3.mb-1 Impacto de las NICSP
+              p.text-small Lectura complementaria impacto operativo en el proceso de convergencia a las NICSP para las entidades de gobierno en Colombia.
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF008_4.3_pdf_Estado_de_costo_de_produccion_y_ventas.pdf')" target="_blank" style="background-color: #E6B046")
+                span Descargar
+                i.fas.fa-file-download
+      
+    Separador 
+
+    .titulo-segundo.color-acento-botones
+      h2#t_4_4 4.4 Normas Internacionales de Información Financiera - NIIF.
+    
+    p.mb-5 La globalización de la economía no es ajena a la información contable y financiera y por supuesto a los estados financieros de las organizaciones, donde se ven reflejados los resultados de su actividad comercial; es por eso que de acuerdo a esta necesidad, se hace necesario estandarizar y armonizar la información financiera que sea fácil para comprender en cualquier lugar del mundo y a partir de ahí surgen las NIIF.  
+
+    .d-flex.flex-wrap.mb-5
+      img.col-lg-4.col-xl-3.col-md-5.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 295px;" data-aos="fade-right")
+      .col-lg-8.col-xl-9.col-md-7.ps-md-4
+        .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
+          p.mb-0  Las normas NIIF para Economipedia (2020) “Son normas técnicas y principios contables con el objetivo homogenizar la reglamentación contable a nivel internacional”. Dichas normas son establecidas por la IASB (International Accounting Standard Board).
+        
+        p Las NIIF, no son de obligatoria adopción para las empresas, sin embargo, un número importante de países las han adoptado, como también las empresas a nivel externo las exigen para entrar a negociar (importar-exportar) productos y servicios. Actualmente las NIIF, las aplican en el sector público y privado (Pequeñas y Medianas Empresas (PYMES), con algunas variaciones.
+    
+    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-5(style="background: linear-gradient(180deg, #2C6AEB 0%, rgba(26,15,145,1) 100%);")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/decorador-5.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0.texto-blanco
+              h3.mb-1 Estado de costo de producción y ventas
+              p.text-small Lectura complementaria estado de costo de producción y ventas y su incidencia en la mano de obra.
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF008_4.4_pdf_Impacto_de_las_NICSP.pdf')" target="_blank" style="background-color: #E6B046")
+                span Descargar
+                i.fas.fa-file-download
+    Separador 
+
+    .titulo-segundo.color-acento-botones
+      h2#t_4_5 Análisis financiero
+    
+    .d-flex.flex-wrap.align-items-start.mb-5.position-relative.container-100.py-4(style="background-color: #F6F6F6")
+      img.col-lg-4.col-xl-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema4/img-12.png" style="max-width: 505px;" data-aos="fade-right")
+      .col-lg-8.col-xl-7.ps-lg-4
+        p.mb-0 El análisis o diagnóstico financiero constituye la herramienta más efectiva para evaluar el desempeño económico y financiero de una empresa, a lo largo de un ejercicio específico y para comparar sus resultados con los de otras empresas del mismo ramo que estén bien gerenciadas y que presenten características similares; pues sus fundamentos y objetivos se centran en la obtención de relaciones cuantitativas propias del proceso de toma de decisiones, mediante la aplicación de técnicas sobre datos aportados por la contabilidad, que a su vez, son transformados para ser analizados e interpretados. 
+    p.mb-5 Para realizar el análisis financiero se deben aplicar unas fórmulas matemáticas con razones financieras, las cuales permiten tener diferentes perspectivas y puntos de vista del crecimiento y desarrollo financiero de la empresa. Así mismo, permiten valorar e interpretar la información obtenida que a la postre, será útil en la toma de decisiones a corto, mediano y largo plazo.
+
+    .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
+      p.mb-0 El análisis financiero es importante en el estudio e interpretación de la información contable obtenida con el objeto de diagnosticar su situación actual y proyectar su futuro desarrollo. Este análisis de se pueden realizar de dos maneras: vertical y horizontal.
+    
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Indicadores de<br> liquidez y solvencia" :icono="require('@/assets/curso/temas/tema4/p-1.svg')")
+        p Para Economipedia(2020) cada indicador de solvencia y de liquidez tiene una particularidad específica, <b>“La liquidez es la cualidad que tienen los activos financieros para convertirse en dinero, y por tanto, hacer frente a los compromisos de pago más inmediatos en un momento oportuno. Sin embargo, la solvencia es la capacidad que tiene una empresa para realizar sus pagos y cumplir con sus deudas financieras, para ello, hay que contar con los recursos suficientes como respaldo para cumplir con las obligaciones de la empresa”.</b>
+        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-13.svg" style="max-width: 925px")
+      .py-4.py-md-5(titulo="Indicadores de<br> eficiencia" :icono="require('@/assets/curso/temas/tema4/p-2.svg')")
+        p Nava (2009) <b>“Entre los indicadores de eficiencia o actividad están la rotación de activos totales, rotación de activos fijos, la rotación del inventario, rotación de las cuentas por cobrar, el período promedio de cobro y el período promedio de pago”</b>. Estos indicadores permiten medir la eficiencia de la organización, con el objeto de saber crecer y rendir los recursos disponibles.
+        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-14.svg" style="max-width: 948px")
+      .py-4.py-md-5(titulo="Indicadores de<br> endeudamiento" :icono="require('@/assets/curso/temas/tema4/p-3.svg')")
+        p Para Nava (2009) <b>“Los indicadores de endeudamiento más significativos son: razón deuda, razón pasivo circulante y pasivo total, razón pasiva a largo plazo y pasivo total, y razón cobertura de intereses”</b>. Otorga una idea de la capacidad de endeudamiento de la empresa para futuras inversiones.
+
+        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-15.svg" style="max-width: 948px")
+      .py-4.py-md-5(titulo="Indicadores<br< rentabilidad" :icono="require('@/assets/curso/temas/tema4/p-4.svg')")
+        p Para Nava (2009) <b>”Los indicadores de rentabilidad muestran los retornos netos obtenidos por las ventas y los activos disponibles, midiendo la efectividad del desempeño gerencial. Entre estos indicadores se encuentran el rendimiento sobre las ventas, el rendimiento sobre los activos y el rendimiento sobre el capital aportado por los accionistas”</b>.
+        img.mx-auto(src="@/assets/curso/temas/tema4/img-16.svg" style="max-width: 697px")
+
+    .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-5(style="background: linear-gradient(180deg, #2C6AEB 0%, rgba(26,15,145,1) 100%);")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/decorador-5.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0.texto-blanco
+              h3.mb-1 Principales indicadores financieros y de gestión 
+              p.text-small Para conocer más sobre los indicadores financieros, descargar el documento sobre: Principales indicadores financieros y de gestión del Instituto Nacional de Contadores Públicos de Colombia (INCPC).
+            .col-sm-auto
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF008_4.6_pdf_principales_indicadores_financieros.pdf')" target="_blank" style="background-color: #E6B046")
+                span Descargar
+                i.fas.fa-file-download
+
+    .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
+      p.mb-0 Como conclusión se puede decir que los análisis financieros, permiten a las organizaciones tener una claridad real sobre la empresa, su situación financiera, proyectar inversiones, inyección de capital, crecimiento y desarrollo, y en dado caso que no sean los resultados esperados, permiten trazar las estrategias para poder corregir. 
+
+
 </template>
 
 <script>

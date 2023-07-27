@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 En resumen, el costeo de procesos logísticos es esencial para gestionar los costos operativos en la cadena de suministro. La contabilidad de costos asigna los costos de forma precisa, distinguiendo entre costos fijos y variables. Los presupuestos planifican ingresos y gastos, garantizando el cumplimiento de metas y la alineación estratégica. Los estados financieros oficiales reflejan la salud financiera y son importantes para declaraciones y stakeholders. A continuación, se presenta un esquema que aborda estos aspectos.
 
     .row.justify-content-center
       .col-lg-10.mb-5
