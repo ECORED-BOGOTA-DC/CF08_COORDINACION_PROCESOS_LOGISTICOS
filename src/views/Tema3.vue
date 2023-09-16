@@ -8,7 +8,7 @@
       h1 Los presupuestos 
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
-      img.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema3/img-1.png" style="max-width: 505px;" data-aos="fade-right")
+      img.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema3/img-1.png" style="max-width: 505px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.col-xl-7.ps-lg-4
         p Son considerados la mayor planificación anticipada de ingresos y egresos de una organización empresarial y se realiza con el objetivo cumplir con las metas establecidas, los responsables y monitoreo constante de las diferentes áreas comprometidas, pero especialmente en estar comprometidos con la alta dirección estratégica de la organización.
         .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
@@ -16,11 +16,11 @@
     
     .tarjeta-avatar-b.col-xl-11.me-xl-auto.mb-5
       .tarjeta-avatar-b__img
-        img.mx-auto(src='@/assets/curso/temas/img-2.svg' style="max-width: 104px")
+        img.mx-auto(src='@/assets/curso/temas/img-2.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
           p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") <b>Importante:</b> tener una hoja de ruta planeada y organizada, con responsables de cada rubro para hacer seguimiento y control, para que este se ejecute según lo planeado en ingresos y egresos.
-          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema3/img-2.svg" style="max-width: 135px;" data-aos="fade-left")
+          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema3/img-2.svg" style="max-width: 135px;" data-aos="fade-left" alt="Imagen decorativa")
 
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
       .col-lg-8.pe-lg-4.order-2.order-lg-1
@@ -42,7 +42,7 @@
             i.w-100.fas.fa-quote-right(style="color: #91B3FA")
           .bloque-texto-d__autor 
             .h5.mb-0 - Economipedia (2020)
-      img.col-lg-4.mx-auto.order-1.order-lg-2.mb-4(src="@/assets/curso/temas/tema3/img-3.png" style="max-width: 400px;" data-aos="fade-right")
+      img.col-lg-4.mx-auto.order-1.order-lg-2.mb-4(src="@/assets/curso/temas/tema3/img-3.png" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
     p.mb-5 Los presupuestos y la planeación se hacen cada vez más estrictos. En los nuevos mercados, se debe tener muy claro el presupuesto de ingresos (ventas) antes de realizar los otros presupuestos.
 
     Separador 
@@ -71,17 +71,17 @@
         h5 Figura 10.
         span Estructura del presupuesto Maestro
       figure
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 798px;" data-aos="fade-left")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 798px;" data-aos="fade-left" alt="Figura 10. describe la estructura de un presupuesto maestro que viene de manera descendente en orden así:  Presupuesto de operación presupuesto de ventas Presupuesto de producción En la misma línea viene: presupuesto de materia prima, mano de obra y de gastos indirectos de fabricación. Continúa hacia abajo así: Costos de producción Gastos de ventas y administrativos presupuesto financiero y finalmente sobre la misma línea: Estado de resultados Estado de flujo de efectivo balance general presupuestado.")
         figcaption(style="font-weight: normal") <b>Nota.</b> Presupuesto Maestro como guía y horizonte. Adaptada de Escobar S. (2019).
     
-    img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema3/img-6.png" data-aos="fade-right")
+    img.mb-4.mb-md-auto(src="@/assets/curso/temas/tema3/img-6.png" data-aos="fade-right" alt="Imagen decorativa")
     .tarjeta.tarjeta-edit-2.col-xl-10.mx-auto.mb-5
       p.mb-0 Los principales recursos base para la elaboración del presupuesto maestro son: los presupuestos de ventas y presupuestos de producción, en los cuales están incluidos los procesos logísticos.
     
     .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(180deg, #2C6AEB 0%, rgba(26,15,145,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema3/img-7.svg")
+          img(src="@/assets/curso/temas/tema3/img-7.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
@@ -95,7 +95,7 @@
     .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-5(style="background: linear-gradient(180deg, #2C6AEB 0%, rgba(26,15,145,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema3/img-8.svg")
+          img(src="@/assets/curso/temas/tema3/img-8.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
@@ -116,15 +116,15 @@
     .d-flex.flex-wrap.mb-4
       .col-lg-6.pe-lg-3.mb-4.d-flex
         .container-tarjeta-edit-2(style="background-color: #91B3FA")
-          img(src="@/assets/curso/temas/tema3/img-9.jpg")
-          img.img-decorativa(src="@/assets/curso/temas/decorador-4.svg" data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema3/img-9.jpg" alt="Imagen decorativa")
+          img.img-decorativa(src="@/assets/curso/temas/decorador-4.svg" data-aos="zoom-in" alt="Imagen decorativa")
           .container-data
             h5 Presupuesto de egresos
             p Los presupuestos de costos y gastos, están compuestos por otros presupuestos más pequeños por departamentos, que se van a integrar al presupuesto de producción, para realizar el gran Presupuesto Maestro de la organización.
       .col-lg-6.ps-lg-3.mb-4.d-flex
         .container-tarjeta-edit-2(style="background-color: #57DBD8")
-          img(src="@/assets/curso/temas/tema3/img-10.jpg")
-          img.img-decorativa(src="@/assets/curso/temas/decorador-4.svg" data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema3/img-10.jpg" alt="Imagen decorativa")
+          img.img-decorativa(src="@/assets/curso/temas/decorador-4.svg" data-aos="zoom-in" alt="Imagen decorativa")
           .container-data
             h5 Presupuestos de la cadena de suministros
             p Los presupuestos de los procesos operativos de costos y gastos que hacen parte de la cadena de suministros, son:

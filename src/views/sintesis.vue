@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Resumen que se hace mediante un mapa conceptual los temas abordados en el componente y que son necesarios conocer y manejar para gestionar los costos operativos en la cadena de suministro que implica conocer de costos, planeación de presupuestos, estados financieros entre otros temas.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

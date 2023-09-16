@@ -20,11 +20,11 @@
     
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
       .tarjeta-avatar-b__img
-        img.mx-auto(src='@/assets/curso/temas/img-2.svg' style="max-width: 104px")
+        img.mx-auto(src='@/assets/curso/temas/img-2.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
           p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") La administración de costos representa un aspecto muy importante para las organizaciones en el mundo de hoy. Cualquier nivel administrativo de una organización depende estrechamente de la información que le proporciona la administración de costos, ya que genera acumulación de información para uso interno y externo.
-          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/img-1.svg" style="max-width: 169px;" data-aos="fade-left")
+          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/img-1.svg" style="max-width: 169px;" data-aos="fade-left" alt="Imagen decorativa")
     
 </template>
 

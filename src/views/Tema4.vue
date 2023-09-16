@@ -17,15 +17,15 @@
     .d-flex.flex-wrap.justify-content-center.mb-5
       .col-12.col-sm-5.col-lg-3.tarjeta-edit-1
         span.number-tj(style="left: .5rem; right: auto;") 01
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-2.svg" style="max-width: 93px")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-2.svg" style="max-width: 93px" alt="Imagen decorativa")
         h5.mb-0.text-center(style="font-weight: normal") Balance general o Estado de cambio en la situación financiera.
       .col-12.col-sm-5.col-lg-3.tarjeta-edit-1
         span.number-tj(style="left: .5rem; right: auto;") 02
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-3.svg" style="max-width: 93px")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-3.svg" style="max-width: 93px" alt="Imagen decorativa")
         h5.mb-0.text-center(style="font-weight: normal") Estado de resultados.
       .col-12.col-sm-5.col-lg-3.tarjeta-edit-1
         span.number-tj(style="left: .5rem; right: auto;") 03
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-4.svg" style="max-width: 93px")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-4.svg" style="max-width: 93px" alt="Imagen decorativa")
         h5.mb-0.text-center(style="font-weight: normal") Estado de cambio en el patrimonio.
 
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
@@ -36,36 +36,36 @@
     .col-xl-10.mx-auto.d-flex.flex-wrap.justify-content-center.mb-5
       .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
         span.number-tj 01
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/tj-1.svg" style="max-width: 152px")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/tj-1.svg" style="max-width: 152px" alt="Imagen decorativa")
         h5.mb-0.text-center Estado financiero actual de la entidad
       
       .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
         span.number-tj 02
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/tj-2.svg" style="max-width: 152px")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/tj-2.svg" style="max-width: 152px" alt="Imagen decorativa")
         h5.mb-0.text-center Resultados de las operaciones en un periodo
       
       .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
         span.number-tj 03
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/tj-3.svg" style="max-width: 152px")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/tj-3.svg" style="max-width: 152px" alt="Imagen decorativa")
         h5.mb-0.text-center Los cambios de la inversión
       
       .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
         span.number-tj 04
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/tj-4.svg" style="max-width: 152px")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/tj-4.svg" style="max-width: 152px" alt="Imagen decorativa")
         h5.mb-0.text-center Los movimientos de dinero entre cuentas de la empresa
       
       .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
         span.number-tj 05
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/tj-5.svg" style="max-width: 152px")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema4/tj-5.svg" style="max-width: 152px" alt="Imagen decorativa")
         h5.mb-0.text-center Cambios de la inversión de los propietarios
     
     .tarjeta-avatar-b.col-xl-10.me-xl-auto.mb-5
       .tarjeta-avatar-b__img
-        img.mx-auto(src='@/assets/curso/temas/img-2.svg' style="max-width: 104px")
+        img.mx-auto(src='@/assets/curso/temas/img-2.svg' style="max-width: 104px" alt="Imagen decorativa")
       .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
           p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") Los Estados financieros, cuentas anuales o informes financieros para Economipedia (2020) <b>“Son la radiografía de la contabilidad de una organización, donde se puede observar las condiciones financieras actuales de la empresa durante un período de tiempo específico”.</b>
-          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 135px;" data-aos="fade-left")
+          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 135px;" data-aos="fade-left" alt="Imagen decorativa")
     
     Separador 
 
@@ -80,7 +80,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema4/img-5.svg')
+              img(src='@/assets/curso/temas/tema4/img-5.svg' alt="Imagen decorativa")
           
         h4 Activos
         p Lo que posee la empresa y se componen de activos corrientes y activos fijos.
@@ -89,7 +89,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema4/img-6.svg')
+              img(src='@/assets/curso/temas/tema4/img-6.svg' alt="Imagen decorativa")
           
         h4 Pasivos
         p Son las deudas de la empresa a corto, mediano y largo plazo.
@@ -98,7 +98,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema4/img-7.svg')
+              img(src='@/assets/curso/temas/tema4/img-7.svg' alt="Imagen decorativa")
           
         h4 Patrimonio
         p Diferencia entre la resta de los activos - pasivos. 
@@ -239,7 +239,7 @@
       h2#t_4_2 4.2 Estado de resultados
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
-      img.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-8.png" style="max-width: 505px;" data-aos="fade-right")
+      img.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-8.png" style="max-width: 505px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.col-xl-7.ps-lg-4
         p Refleja el comportamiento de los ingresos y egresos de la entidad; según la actividad comercial a que se dedique; la información presentada es de acuerdo con el periodo de tiempo que se elija para presentar este informe financiero. De igual manera nos brinda una información sobre los ingresos y egresos de la empresa, si se ha perdido o se ha ganado durante el periodo de tiempo que se está procesando la información; se realiza luego de procesar la información contable.
         p Los conceptos que hacen parte del estado de resultados son, ver figura 12:
@@ -278,7 +278,7 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 12.
         span Ejemplo Estructura básica del estado de resultados
-      img.mx-auto.mb-3(src="@/assets/curso/temas/tema4/img-19.svg" style="max-width: 1030px")
+      img.mx-auto.mb-3(src="@/assets/curso/temas/tema4/img-19.svg" style="max-width: 1030px" alt="Figura 12. Muestra el ejemplo de la estructura básica del estado de resultados de una empresa donde en la columna a mano izquierda se ubican todos los ingresos.")
       figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Modelo de estado de resultados (s.f.).
     
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
@@ -403,7 +403,7 @@
         .h5.mb-0 - Economipedia (2020)
 
     .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 79%);")
-      img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-10.svg" style="max-width: 136px;" data-aos="fade-right")
+      img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-10.svg" style="max-width: 136px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-md.ps-md-4
         p.fw-bold.mb-0 “A través del estado de costos de producción y ventas se obtiene información del consumo de materia prima usada, mano de obra empleada, el proceso de producción y costos necesarios en la producción para establecer el precio en el mercado”.
         .d-flex.justify-content-end.align-items-center
@@ -413,7 +413,7 @@
     .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-5(style="background: linear-gradient(180deg, #2C6AEB 0%, rgba(26,15,145,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/decorador-5.svg")
+          img(src="@/assets/curso/temas/decorador-5.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
@@ -432,7 +432,7 @@
     p.mb-5 La globalización de la economía no es ajena a la información contable y financiera y por supuesto a los estados financieros de las organizaciones, donde se ven reflejados los resultados de su actividad comercial; es por eso que de acuerdo a esta necesidad, se hace necesario estandarizar y armonizar la información financiera que sea fácil para comprender en cualquier lugar del mundo y a partir de ahí surgen las NIIF.  
 
     .d-flex.flex-wrap.mb-5
-      img.col-lg-4.col-xl-3.col-md-5.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 295px;" data-aos="fade-right")
+      img.col-lg-4.col-xl-3.col-md-5.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 295px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.col-xl-9.col-md-7.ps-md-4
         .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
           p.mb-0  Las normas NIIF para Economipedia (2020) “Son normas técnicas y principios contables con el objetivo homogenizar la reglamentación contable a nivel internacional”. Dichas normas son establecidas por la IASB (International Accounting Standard Board).
@@ -442,7 +442,7 @@
     .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-5(style="background: linear-gradient(180deg, #2C6AEB 0%, rgba(26,15,145,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/decorador-5.svg")
+          img(src="@/assets/curso/temas/decorador-5.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
@@ -458,7 +458,7 @@
       h2#t_4_5 4.5 Análisis financiero
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative.container-100.py-4(style="background-color: #F6F6F6")
-      img.col-lg-4.col-xl-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema4/img-12.png" style="max-width: 505px;" data-aos="fade-right")
+      img.col-lg-4.col-xl-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema4/img-12.png" style="max-width: 505px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.col-xl-7.ps-lg-4
         p.mb-0 El análisis o diagnóstico financiero constituye la herramienta más efectiva para evaluar el desempeño económico y financiero de una empresa, a lo largo de un ejercicio específico y para comparar sus resultados con los de otras empresas del mismo ramo que estén bien gerenciadas y que presenten características similares; pues sus fundamentos y objetivos se centran en la obtención de relaciones cuantitativas propias del proceso de toma de decisiones, mediante la aplicación de técnicas sobre datos aportados por la contabilidad, que a su vez, son transformados para ser analizados e interpretados. 
     p.mb-5 Para realizar el análisis financiero se deben aplicar unas fórmulas matemáticas con razones financieras, las cuales permiten tener diferentes perspectivas y puntos de vista del crecimiento y desarrollo financiero de la empresa. Así mismo, permiten valorar e interpretar la información obtenida que a la postre, será útil en la toma de decisiones a corto, mediano y largo plazo.
@@ -469,11 +469,11 @@
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-edit-acordion")
       .d-flex.flex-wrap(titulo="Análisis vertical")
         p.mb-5 Permite analizar el peso porcentual de cada componente de los estados financieros, es decir del balance general y el estado de resultados. Los resultados que arroje el análisis; son presentados en variaciones absolutas y relativas.
-        img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;")
+        img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;" alt="Figura 14. Muestra un análisis vertical donde se describe las cuentas de la empresa los comparativos del año 2012, 2011 la variación y el porcentaje.")
         p.fw-bold.w-100.text-center ejemplo de análisis vertical
       .d-flex.flex-wrap(titulo="Análisis Horizontal")
         p.mb-5 Permite realizar un análisis de manera horizontal a los estados financieros y al balance general en 2 periodos (años) consecutivos para ver sus respectivas variaciones. Según Economipedia (2020) “El análisis horizontal calcula la variación absoluta y relativa que ha tenido cada una de las partidas del balance o la cuenta de resultados, en dos períodos de tiempo consecutivos”. Los resultados que arroje el análisis; son presentados en variaciones absolutas y relativas.
-        img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;")
+        img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;" alt="Figura 15- Expone a través de un ejemplo el análisis horizontal con la descripción de la cuenta de resultados luego año 1 y año 2 acompañado de los valores de la variación absoluta y relativa.")
         p.fw-bold.w-100.text-center ejemplo de análisis horizontal
 
     .titulo-segundo.color-acento-botones
@@ -485,22 +485,22 @@
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Indicadores de<br> liquidez y solvencia" :icono="require('@/assets/curso/temas/tema4/p-1.svg')")
         p Para Economipedia(2020) cada indicador de solvencia y de liquidez tiene una particularidad específica, <b>“La liquidez es la cualidad que tienen los activos financieros para convertirse en dinero, y por tanto, hacer frente a los compromisos de pago más inmediatos en un momento oportuno. Sin embargo, la solvencia es la capacidad que tiene una empresa para realizar sus pagos y cumplir con sus deudas financieras, para ello, hay que contar con los recursos suficientes como respaldo para cumplir con las obligaciones de la empresa”.</b>
-        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-13.svg" style="max-width: 925px")
+        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-13.svg" style="max-width: 925px" alt="Imagen que muestra la formula para los indicadores de liquides y solvencia ")
       .py-4.py-md-5(titulo="Indicadores de<br> eficiencia" :icono="require('@/assets/curso/temas/tema4/p-2.svg')")
         p Nava (2009) <b>“Entre los indicadores de eficiencia o actividad están la rotación de activos totales, rotación de activos fijos, la rotación del inventario, rotación de las cuentas por cobrar, el período promedio de cobro y el período promedio de pago”</b>. Estos indicadores permiten medir la eficiencia de la organización, con el objeto de saber crecer y rendir los recursos disponibles.
-        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-14.svg" style="max-width: 948px")
+        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-14.svg" style="max-width: 948px" alt="Imagen que muestra las formulas para el indicador de eficiencia y se describen luego de la imagen.")
       .py-4.py-md-5(titulo="Indicadores de<br> endeudamiento" :icono="require('@/assets/curso/temas/tema4/p-3.svg')")
         p Para Nava (2009) <b>“Los indicadores de endeudamiento más significativos son: razón deuda, razón pasivo circulante y pasivo total, razón pasiva a largo plazo y pasivo total, y razón cobertura de intereses”</b>. Otorga una idea de la capacidad de endeudamiento de la empresa para futuras inversiones.
 
-        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-15.svg" style="max-width: 948px")
+        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-15.svg" style="max-width: 948px" alt="Imagen que describe las fórmulas para el indicador de endeudamiento que se indican  luego de la imagen.")
       .py-4.py-md-5(titulo="Indicadores<br< rentabilidad" :icono="require('@/assets/curso/temas/tema4/p-4.svg')")
         p Para Nava (2009) <b>”Los indicadores de rentabilidad muestran los retornos netos obtenidos por las ventas y los activos disponibles, midiendo la efectividad del desempeño gerencial. Entre estos indicadores se encuentran el rendimiento sobre las ventas, el rendimiento sobre los activos y el rendimiento sobre el capital aportado por los accionistas”</b>.
-        img.mx-auto(src="@/assets/curso/temas/tema4/img-16.svg" style="max-width: 697px")
+        img.mx-auto(src="@/assets/curso/temas/tema4/img-16.svg" style="max-width: 697px" alt="Imagen que muestra un ejemplo de las fórmulas de un indicador de rentabilidad y se describen luego de la imagen.")
 
     .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-5(style="background: linear-gradient(180deg, #2C6AEB 0%, rgba(26,15,145,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/decorador-5.svg")
+          img(src="@/assets/curso/temas/decorador-5.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
