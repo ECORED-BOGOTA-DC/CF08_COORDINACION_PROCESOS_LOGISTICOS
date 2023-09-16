@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Contabilidad de costos y costeo de los procesos logísticos 
     
     .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -24,8 +24,8 @@
     
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 7
-        span.d-block Taxonomía de las metodologías de costo
+        h5 Figura 7.
+        span Taxonomía de las metodologías de costo
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 1024px;" data-aos="fade-left")
         figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Relación de esta taxonomía con la medición del desempeño en la cadena de Suministro y logística (s.f.).
@@ -74,8 +74,8 @@
         
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 8
-        span.d-block Taxonomía de las metodologías de costo
+        h5 Figura 8.
+        span  Esquema contabilidad de costos
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-6.svg" style="max-width: 1034px;" data-aos="fade-left")
         figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Los Costos (s.f.).
@@ -91,8 +91,8 @@
     
     .mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 9
-        span.d-block Clasificaciones de los costos
+        h5 Figura 9.
+        span Clasificaciones de los costos
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-8.svg" data-aos="fade-left")
         figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Cuadro general de los diferentes tipos de clasificaciones del costo (s.f.). 
@@ -102,7 +102,7 @@
       .col-lg-8.col-xl-9.col-md-7.ps-md-4
         p Los sistemas de costeo más relevante, que se aplica en las organizaciones y que los estudiosos del tema, han denominado Actividad Basada en Costos (ABC), permite a las organizaciones asignar los costos de manera proporcional a su participación en la elaboración de productos y servicios y por su precisión es aconsejable su uso. 
         .cajon.color-primario.p-4.mb-3(data-aos="fade-right" style="background-color: #E0F4FE")
-          p.mb-0 Según el portal www.gerencie.com el Active Based Costing, por sus siglas en inglés, es un sistema de costos frecuentemente utilizado por las organizaciones actuales, lo cual remplazó los sistemas obsoletos de administración”. 
+          p.mb-0 Según el portal www.gerencie.com el <em>Active Based Costing</em>, por sus siglas en inglés, es un sistema de costos frecuentemente utilizado por las organizaciones actuales, lo cual remplazó los sistemas obsoletos de administración. 
         p.mb-0 La Actividad Basada en Costos (ABC), considerada actualmente el sistema de costeo más moderno del mundo, se puede aplicar de diferente forma:
 
     .tarjeta--container.row.mb-5
@@ -113,7 +113,7 @@
               img(src='@/assets/curso/temas/tema2/img-9.svg')
           
         h4 Procesos
-        p El sistema de costos por procesos permite asignar y acumular los costos a los productos por proceso logísticos. Colin (2014), “En economías a escala la asignación de costos por procesos, los costos se reúnen en un determinado espacio de tiempo por cada departamento, proceso o nodo de costo.
+        p El sistema de costos por procesos permite asignar y acumular los costos a los productos por proceso logísticos. Colin (2014), En economías a escala la asignación de costos por procesos, los costos se reúnen en un determinado espacio de tiempo por cada departamento, proceso o nodo de costo.
 
       .col-md.tarjeta.color-acento-botones.p-5(style="background-color: #D8E4FD")
         .row.justify-content-center.mb-4
@@ -192,7 +192,7 @@
               img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 135px;" data-aos="fade-left")
 
       .d-flex.flex-wrap(titulo="Costos de inventarios")
-        p Son generados al momento de mantener el stock de inventarios para los procesos administrativos y operativos de la empresa.
+        p Son generados al momento de mantener el <em>stock</em> de inventarios para los procesos administrativos y operativos de la empresa.
         .d-flex.flex-wrap.mb-4.w-100
           img.col-lg-4.col-xl-3.col-md-5.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/img-15.png" style="max-width: 298px;")
           .col-lg-8.col-xl-9.col-md-7.ps-md-4
@@ -228,7 +228,7 @@
                 th Costo de faltantes de inventario
             tbody(style="background-color: white;")
               tr
-                td
+                td(style="vertical-align: sub")
                   p <b>1.</b> Interés sobre el capital invertido en:
                     br
                     |- Inventario
@@ -262,7 +262,7 @@
                     |- Disminución de precio
                     br
                     |- Cambio de estilo, época
-                td
+                td(style="vertical-align: sub")
                   p <b>1.</b> Preparar requisición
                   P <b>2.</b> Proceso de investigación y mercado de colocación
                   P <b>3.</b> Activación de orden de compra
@@ -276,7 +276,7 @@
                   P <b>11.</b> Contabilidad y auditoria de inventario
                   P <b>12.</b> Costo
 
-                td
+                td(style="vertical-align: sub")
                   p <b>1.</b> Disminución de utilidades por ventas perdidas
                   p <b>2.</b> Publicidad y/o promociones no aprovechadas
                   p <b>3.</b> Interrupción de los programas de producción
@@ -298,7 +298,7 @@
                 p.mb-0 Arrendamiento y compra de espacios físicos.
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
-                p.mb-0 Control de stock.
+                p.mb-0 Control de <em>stock</em>.
               li.d-flex.align-items-start.pb-2.mb-2
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 Custodia y conservación de los inventarios.
@@ -323,7 +323,7 @@
             ul.lista-ul--separador.mb-0.col-lg-6.pe-lg-3
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
-                p.mb-0 Compra de la flota de Transporte.
+                p.mb-0 Compra de la flota de transporte.
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 Arrendamiento flota de transporte.
@@ -381,7 +381,7 @@
                 p.mb-0 Inventarios estacionales.
             .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background-color: white;")
               img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-22.svg" style="max-width: 136px;" data-aos="fade-right")
-              p.col-md.ps-md-4.fw-bold.mb-0 Es de aclarar que la logística inversa o reversa también tiene otra función según Economipedia (2020)” La logística inversa es un tipo de logística encargada de la administración de residuos generados durante toda la cadena de suministro. Esto, con el objetivo de reciclar o destruir dicho material”. Lo que se busca es la reutilización y el mínimo impacto y máximo aprovechamiento medioambiental como consecuencia del desarrollo de los procesos logísticos.
+              p.col-md.ps-md-4.fw-bold.mb-0 Es de aclarar que la logística inversa o reversa también tiene otra función según Economipedia (2020) “La logística inversa es un tipo de logística encargada de la administración de residuos generados durante toda la cadena de suministro. Esto, con el objetivo de reciclar o destruir dicho material”. Lo que se busca es la reutilización y el mínimo impacto y máximo aprovechamiento medioambiental como consecuencia del desarrollo de los procesos logísticos.
 
       .d-flex.flex-wrap(titulo="Costos servicio al cliente")
         p La atención y servicio al cliente genera todo un conjunto de costos que la empresa debe cubrir y se basa especialmente en brindar información adicional sobre el producto y/o servicio que se esté vendiendo o prestando. El costo del servicio al cliente depende en gran medida el éxito o el fracaso, de todos los anteriores procesos y costos asociados puesto que representa la comunicación directa con el cliente.

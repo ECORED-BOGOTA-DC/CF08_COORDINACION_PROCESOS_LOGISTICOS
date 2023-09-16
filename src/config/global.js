@@ -121,9 +121,9 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
+            numero: '4.1',
             titulo: 'Estado de la situación financiera - balance general',
-            hash: 't_1_1',
+            hash: 't_4_1',
           },
           {
             numero: '4.2',

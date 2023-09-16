@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Los Estados Financieros 
+      h1 Estados Financieros
     
     .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -108,8 +108,8 @@
     
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 11
-        span.d-block Ejemplo del Balance General de una Empresa
+        h5 Figura 11.
+        span Ejemplo del Balance General de una Empresa
       .tabla-a.color-primario.mb-3
         table
           thead
@@ -118,7 +118,7 @@
           tbody(style="background-color: white;")
             tr
               td
-                p.fw-bold ACTIVO
+                p.fw-bold Activo
                 p.fw-bold.mb-2 Activo corriente
                 p Caja
                   br
@@ -175,7 +175,7 @@
                   br
                   |$396.675,20
               td
-                p.fw-bold PASIVO
+                p.fw-bold Pasivo
                 p.fw-bold.mb-2 Pasivo corriente
                 p Documentos por pagar a bancos
                   br
@@ -192,7 +192,7 @@
                   br
                   |Otros pasivos no corriente
 
-                p.fw-bold.mb-2 PATRIMONIO
+                p.fw-bold.mb-2 Patrimonio
                 p Capital
                   br
                   |Reserva legal
@@ -276,70 +276,9 @@
 
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 12
-        span.d-block Ejemplo Estructura básica del estado de resultados
-      .tabla-a.color-primario.mb-3
-        table
-          thead
-            tr(style="background-color: #E9F0FE")
-              th(colspan="4")
-                p.mb-0.fw-bold.mx-auto(style="max-width: 300px") Empresa practica Ltda Estado de resultados 1 de enero al 31 de diciembre de 2007
-          tbody(style="background-color: white;")
-            tr
-              td
-                p.fw-bols Ingresos
-                p.fw-bold.mb-2 Ingresos operacionales
-                p Comercio al por mayor y menor
-                  br
-                  |Menos: devoluciones en ventas
-                  br
-                p.fw-bold.mb-0 Mas: ingresos no operacionales
-                p.mb-2 Arrendamientos
-                  br
-                  |Utilidad en veta de inversiones
-                p.fw-bold.mb-2 Total ingresos netos
-                p.mb-0 Costo de ventas
-                p Inventario inicial
-                  br
-                  |Mas: compras
-                  br
-                  |Menos: inventario final
-                  br
-                  |Total costo de ventas
-                  br
-                  |Utilidad bruta en ventas
-                p.fw-bold.mb-2 Gastos
-                p.fw-bold.mb-2 Gastos operacionales de administración
-                p Personal
-                  br
-                  |Servicios
-                  br
-                  |Legales
-                  br
-                  |Mantenimiento y reparaciones
-                  br
-                  |Depreciaciones
-                  br
-                  |Diversos
-                p.fw-bold.mb-2 Operacionales de ventas
-                p.mb-2 Personal
-                  br
-                  |Diversos
-                p.fw-bold.mb-2 Gastos no operacionales
-                  br
-                  |Financieros
-                p.fw-bold.mb-2 Total gastos de administración y ventas
-                  br
-                  |Utilidad antes de impuestos y reservas
-                p.mb-2 Menos: impuesto sobre la renta 34%
-                p.fw-bold.mb-2 Utilidad liquida
-                p.mb-2 Menos: reservas
-                  br
-                  |Reserva legal 10% utilidad liquida
-                p.fw-bold.mb-2 Resultado del periodo
-              td
-              td
-              td
+        h5 Figura 12.
+        span Ejemplo Estructura básica del estado de resultados
+      img.mx-auto.mb-3(src="@/assets/curso/temas/tema4/img-19.svg" style="max-width: 1030px")
       figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Modelo de estado de resultados (s.f.).
     
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
@@ -359,8 +298,8 @@
     
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 12
-        span.d-block Ejemplo Estructura básica del estado de resultados
+        h5 Figura 13.
+        span Ejemplo Estructura básica del estado de resultados
       .tabla-a.color-primario.mb-3
         table
           thead
@@ -461,7 +400,7 @@
         p.mb-0 El costo de producción o costo de operación es el gasto necesario para fabricar un bien o servicio
         i.w-100.fas.fa-quote-right(style="color: #91B3FA")
       .bloque-texto-d__autor 
-        .h5.mb-0 - Ecomipedia (2020)
+        .h5.mb-0 - Economipedia (2020)
 
     .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 79%);")
       img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema4/img-10.svg" style="max-width: 136px;" data-aos="fade-right")
@@ -479,7 +418,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
               h3.mb-1 Impacto de las NICSP
-              p.text-small Lectura complementaria impacto operativo en el proceso de convergencia a las NICSP para las entidades de gobierno en Colombia.
+              p.text-small Lectura complementaria <b>estado de costo de producción y ventas y su incidencia en la mano de obra</b> para las entidades de gobierno en Colombia.
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF008_4.3_pdf_Estado_de_costo_de_produccion_y_ventas.pdf')" target="_blank" style="background-color: #E6B046")
                 span Descargar
@@ -488,7 +427,7 @@
     Separador 
 
     .titulo-segundo.color-acento-botones
-      h2#t_4_4 4.4 Normas Internacionales de Información Financiera - NIIF.
+      h2#t_4_4 4.4 Normas Internacionales de Información Financiera - NIIF
     
     p.mb-5 La globalización de la economía no es ajena a la información contable y financiera y por supuesto a los estados financieros de las organizaciones, donde se ven reflejados los resultados de su actividad comercial; es por eso que de acuerdo a esta necesidad, se hace necesario estandarizar y armonizar la información financiera que sea fácil para comprender en cualquier lugar del mundo y a partir de ahí surgen las NIIF.  
 
@@ -508,7 +447,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
               h3.mb-1 Estado de costo de producción y ventas
-              p.text-small Lectura complementaria estado de costo de producción y ventas y su incidencia en la mano de obra.
+              p.text-small Lectura complementaria <b>impacto operativo en el proceso de convergencia a las NICSP para las entidades de gobierno en Colombia</b>.
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF008_4.4_pdf_Impacto_de_las_NICSP.pdf')" target="_blank" style="background-color: #E6B046")
                 span Descargar
@@ -516,7 +455,7 @@
     Separador 
 
     .titulo-segundo.color-acento-botones
-      h2#t_4_5 Análisis financiero
+      h2#t_4_5 4.5 Análisis financiero
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative.container-100.py-4(style="background-color: #F6F6F6")
       img.col-lg-4.col-xl-5.mx-auto.mb-4.mb-lg-auto(src="@/assets/curso/temas/tema4/img-12.png" style="max-width: 505px;" data-aos="fade-right")
@@ -527,6 +466,22 @@
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
       p.mb-0 El análisis financiero es importante en el estudio e interpretación de la información contable obtenida con el objeto de diagnosticar su situación actual y proyectar su futuro desarrollo. Este análisis de se pueden realizar de dos maneras: vertical y horizontal.
     
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-edit-acordion")
+      .d-flex.flex-wrap(titulo="Análisis vertical")
+        p.mb-5 Permite analizar el peso porcentual de cada componente de los estados financieros, es decir del balance general y el estado de resultados. Los resultados que arroje el análisis; son presentados en variaciones absolutas y relativas.
+        img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;")
+        p.fw-bold.w-100.text-center ejemplo de análisis vertical
+      .d-flex.flex-wrap(titulo="Análisis Horizontal")
+        p.mb-5 Permite realizar un análisis de manera horizontal a los estados financieros y al balance general en 2 periodos (años) consecutivos para ver sus respectivas variaciones. Según Economipedia (2020) “El análisis horizontal calcula la variación absoluta y relativa que ha tenido cada una de las partidas del balance o la cuenta de resultados, en dos períodos de tiempo consecutivos”. Los resultados que arroje el análisis; son presentados en variaciones absolutas y relativas.
+        img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;")
+        p.fw-bold.w-100.text-center ejemplo de análisis horizontal
+
+    .titulo-segundo.color-acento-botones
+      h2#t_4_6 4.6 Indicadores de gestión financieras
+    
+    p Son utilizados como herramienta indispensable en la mayoría de las empresas. Mediante el cálculo e interpretación de cifras se logra medir la estabilidad, la capacidad de endeudamiento y capacidad de generar liquidez en una organización, permitiendo potencializar aquellas áreas de mayor rendimiento e identificando aquellas sensibles de mejora.
+    p.mb-5 Entre los indicadores de gestión financiera y que deben ser interpretados por personas con conocimiento de la empresa, se destacan los siguientes:
+
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Indicadores de<br> liquidez y solvencia" :icono="require('@/assets/curso/temas/tema4/p-1.svg')")
         p Para Economipedia(2020) cada indicador de solvencia y de liquidez tiene una particularidad específica, <b>“La liquidez es la cualidad que tienen los activos financieros para convertirse en dinero, y por tanto, hacer frente a los compromisos de pago más inmediatos en un momento oportuno. Sin embargo, la solvencia es la capacidad que tiene una empresa para realizar sus pagos y cumplir con sus deudas financieras, para ello, hay que contar con los recursos suficientes como respaldo para cumplir con las obligaciones de la empresa”.</b>

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
+      h1 Costos en la gestión logística
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
       img.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-1.png" style="max-width: 505px;" data-aos="fade-right")
@@ -110,7 +110,7 @@
                 i.fas.fa-angle-right(style="color: #57DBD8; font-size: 20px")
                 | <b>Costos semi-variables:</b> son aquellos que tienen un componente fijo, pero a su vez varía de acuerdo con modificaciones bruscas, tanto en el proceso de producción como en la venta.
           div(numero="3" titulo="De acuerdo con su identificación con una actividad, departamento o producto")
-            ul.lista-ul--separador
+            ul.lista-ul--separador.mt-4
               li.pb-2.mb-2(style="border-bottom-style: dashed")
                 i.fas.fa-angle-right(style="color: #57DBD8; font-size: 20px")
                 | <b>Costos directos:</b> son aquellos que intervienen directamente en la creación de un bien o servicio; materia prima, mano de obra, etc.
@@ -124,7 +124,7 @@
                 | <b>Costos históricos:</b> son aquellos producidos en un momento específico, como los costos de los productos vendidos o de los que están proceso. Permiten pronosticar el comportamiento de los costos predeterminados.
               li.pb-2.mb-2
                 i.fas.fa-angle-right(style="color: #57DBD8; font-size: 20px")
-                | <b>Costos predeterminados:</b> son todos aquellos costos estimados con datos estadísticos y son usado en el desarrollo de los presupuestos.
+                | <b>Costos predeterminados:</b> son todos aquellos costos estimados con datos estadísticos y son usados en el desarrollo de los presupuestos.
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
       .tarjeta-avatar-b__img
@@ -148,7 +148,7 @@
             p.mb-0 Los costos hacen un recorrido a lo largo de la cadena de suministros “El flujo y el almacenamiento del producto determinan el costo transversal de la cadena de suministro”.
             i.w-100.fas.fa-quote-right(style="color: #91B3FA")
           .bloque-texto-d__autor 
-            .h5.mb-0 - Costro (2016)
+            .h5.mb-0 - Castro (2016)
         .cajon.color-primario.p-4.mb-3(data-aos="fade-left" style="background-color: #E0F4FE")
           p.mb-0 Los costos logísticos se encuentran distribuidos al largo de toda la cadena de abastecimiento y abarcan cada uno de los procesos, subprocesos, actividades y tareas relacionadas con los procesos, logísticas que a su vez agregan valor al producto o servicio. 
         p.mb-0 Se puede ver esta distribución de costos en los diferentes procesos:
@@ -158,7 +158,7 @@
         .d-flex.flex-wrap.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative.pe-lg-4
             .number(data-number="01")
-              h4.ps-4 Costos en los procesos logísticos.
+              h4.ps-4 Costos en los procesos logísticos
               p.ps-4 La logística de entrada empieza con el proceso de aprovisionamiento, comprende una serie de actividades interrelacionadas que requieren insumos, recursos de personal para la adquisición de: materia prima, insumos, productos terminados, maquinaria, además. 
                 br
                 |Incluyen estas actividades:
@@ -177,59 +177,60 @@
                   p.mb-0 Negociación de precios, términos de negociación.
                 li.d-flex.align-items-start.pb-2.mb-2
                   img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 <em>Stock</em> mínimos y máximos de inventarios de materia primas
+                  p.mb-0 <em>Stock</em> mínimos y máximos de inventarios de materia primas.
           .col-6.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img-6.svg')
         .d-flex.flex-wrap.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative.pe-lg-4
             .number(data-number="02")
-              h4.ps-4 Costos en los procesos logísticos.
-              p.ps-4 La logística de entrada empieza con el proceso de aprovisionamiento, comprende una serie de actividades interrelacionadas que requieren insumos, recursos de personal para la adquisición de: materia prima, insumos, productos terminados, maquinaria, además. 
-                br
-                |Incluyen estas actividades:
-              ul.lista-ul--separador.ps-4.ps-lg-5
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Selección proveedores.
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Compra de insumos y materias primas.
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Certificación de calidad de las materias primas.
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Negociación de precios, términos de negociación.
-                li.d-flex.align-items-start.pb-2.mb-2
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 <em>Stock</em> mínimos y máximos de inventarios de materia primas
+              h4.ps-4 Costos en la gestión de Inventarios
+              p.ps-4 La logística interna se ve reflejada en la gestión de inventarios que genera unas actividades y costos relacionados con su actividad. Para ello requiere recursos, insumos y personal para su importante actividad dentro de los procesos logísticos, que incluyen estas actividades; es importante hacer claridad que en el inventario se encuentra la mayor cantidad de recursos de la empresa, que debe ser administrado de manera correcta:
+              .d-flex.flex-wrap
+                ul.lista-ul--separador.ps-4.ps-lg-5.col-lg-6.px-2
+                  li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
+                    img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+                    p.mb-0 Recibo de mercancías.
+                  li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
+                    img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+                    p.mb-0 Administración de Inventarios.
+                  li.d-flex.align-items-start.pb-2.mb-2
+                    img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+                    p.mb-0 Preparación de pedidos.
+                ul.lista-ul--separador.ps-4.ps-lg-2.col-lg-6.px-2
+                  li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
+                    img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+                    p.mb-0 Mantenimiento de inventarios.
+                  li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
+                    img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+                    p.mb-0 Rotación de mercancías.
+                  li.d-flex.align-items-start.pb-2.mb-2
+                    img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+                    p.mb-0 Evitar pérdidas y faltantes.
           .col-6.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img-7.svg')
         .d-flex.flex-wrap.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative.pe-lg-4
             .number(data-number="03")
-              h4.ps-4 Costos en los procesos logísticos.
-              p.ps-4 La logística de entrada empieza con el proceso de aprovisionamiento, comprende una serie de actividades interrelacionadas que requieren insumos, recursos de personal para la adquisición de: materia prima, insumos, productos terminados, maquinaria, además. 
-                br
-                |Incluyen estas actividades:
+              h4.ps-4 Costos de Distribución
+              p.ps-4 La logística de salida enmarca los procesos de transporte y distribución física de las mercancías y productos; es el último eslabón de la cadena hacia el consumidor final. Requiere recursos, insumos y personal para su importante actividad dentro de los procesos logísticos; representan un porcentaje alto, del total de los costos de la cadena de abastecimiento:
               ul.lista-ul--separador.ps-4.ps-lg-5
                 li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
                   img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Selección proveedores.
+                  p.mb-0 Administración del transporte (aéreo-marítimo-fluvial-terrestre).
                 li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
                   img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Compra de insumos y materias primas.
+                  p.mb-0 Distribución física de mercancías.
                 li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
                   img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Certificación de calidad de las materias primas.
+                  p.mb-0 Programación de rutas y recorridos.
                 li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
                   img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Negociación de precios, términos de negociación.
+                  p.mb-0 Normatividad aplicada al transporte.
                 li.d-flex.align-items-start.pb-2.mb-2
                   img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 <em>Stock</em> mínimos y máximos de inventarios de materia primas
+                  p.mb-0 Entre otras.
           .col-6.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img-8.svg')
@@ -269,8 +270,8 @@
 
     .mx-auto.col-lg-10.col-xl-8.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 1
-        span.d-block Logística Inversa
+        h5 Figura 1.
+        span Logística Inversa
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-10.svg" style="max-width: 825px;" data-aos="fade-left")
         figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Operación de logística inversa.
@@ -355,8 +356,8 @@
 
     .mx-auto.col-lg-10.col-xl-8.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 2
-        span.d-block Costos ocultos
+        h5 Figura 2.
+        span Costos ocultos
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-14.svg" style="max-width: 816px;" data-aos="fade-left")
         figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Ejemplo de hilera de disfuncionamientos (2014).
@@ -369,8 +370,8 @@
 
     .mx-auto.col-lg-10.col-xl-8.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 3
-        span.d-block Método de costos ocultos
+        h5 Figura 3.
+        span Método de costos ocultos
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-16.svg" style="max-width: 821px;" data-aos="fade-left")
         figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Campos de acción del método de los costos ocultos (2014).
@@ -410,8 +411,8 @@
 
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 4
-        span.d-block Costos de calidad
+        h5 Figura 4.
+        span Costos de calidad
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-21.svg" style="max-width: 1038px;" data-aos="fade-left")
         figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de La estructura de costos de la calidad (2018).
@@ -425,12 +426,12 @@
 
     .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 79%);")
       img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-22.svg" style="max-width: 136px;" data-aos="fade-right")
-      p.col-md.ps-md-4.fw-bold.mb-0 Para Parra (2014) “Los costos ocultos están presentes en todos los departamentos de la organización, por lo cual, se debe corregir con todos los actores involucrados en los procesos productivos”. También son generados en la duplicidad de funciones, derroche y desperdicio de recursos, error en la identificación y clasificación de la mercancía.
+      p.col-md.ps-md-4.fw-bold.mb-0 Según Economipedia (2020) “La economía es una ciencia social que estudia la forma de administrar los recursos disponibles para satisfacer las necesidades humanas. Además, también estudia el comportamiento y las acciones de los seres humanos”. Estudia la ley de la oferta y la demanda, fija los precios del mercado de oferta y demanda del sector productivo de los países, ver figura 5. 
 
     .mx-auto.col-lg-10.col-xl-8.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 5
-        span.d-block Colores de la economía
+        h5 Figura 5.
+        span Colores de la economía
       ImagenInfografica.color-secundario.mb-5.w-100.d-none.d-md-block
         template(v-slot:imagen)
           figure
@@ -511,8 +512,8 @@
 
     .mx-auto.col-lg-10.col-xl-8
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 6
-        span.d-block Diferencias entre micro y macroeconomía
+        h5 Figura 6.
+        span Diferencias entre micro y macroeconomía
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-26.svg" style="max-width: 821px;" data-aos="fade-left")
         figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Diferencias entre los dos conceptos de macroeconomía y microeconomía (s.f.).

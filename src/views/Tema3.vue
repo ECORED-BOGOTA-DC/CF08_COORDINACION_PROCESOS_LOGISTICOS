@@ -68,8 +68,8 @@
 
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
-        h5 Figura 10
-        span.d-block Estructura del presupuesto Maestro
+        h5 Figura 10.
+        span Estructura del presupuesto Maestro
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 798px;" data-aos="fade-left")
         figcaption(style="font-weight: normal") <b>Nota.</b> Presupuesto Maestro como guía y horizonte. Adaptada de Escobar S. (2019).
