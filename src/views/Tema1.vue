@@ -2,15 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Costos en la gestión logística
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
       img.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-1.png" style="max-width: 505px;" data-aos="fade-right" alt="Imagen decorativa")
-      .col-lg-8.col-xl-7.ps-lg-4
-        p Se denominan costos en la gestión logística y/o costos operativos, aquellos que se incurren en la operación de los macroprocesos, procesos, subprocesos, actividades y tareas que se realizan a lo largo de toda la cadena de suministro (logística entrada-interna-salida) y que hacen parte importante del costo final del producto y/o servicio. 
+      .col-lg-8.col-xl-7.ps-lg-4(data-aos="fade-left")
+        p Se denominan costos en la gestión logística o costos operativos, aquellos que se incurren en la operación de los macroprocesos, procesos, subprocesos, actividades y tareas que se realizan a lo largo de toda la cadena de suministro (logística entrada-interna-salida) y que hacen parte importante del costo final del producto o servicio. 
         .bloque-texto-d.color-primario.p-4(style="border-top: 1px solid #12263F")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left(style="color: #91B3FA")
@@ -23,39 +23,39 @@
       p.mb-0 Los costos constituyen un rubro importante dentro del desarrollo de la cadena de abastecimiento y el impacto sobre los costos finales y utilidad de organización son importantes, para replantear objetivos hacia el cumplimiento de la misión y visión, a continuación, los costos relacionados con los procesos:
 
     .d-flex.flex-wrap.justify-content-center.mb-5
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
+      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 01
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-1.svg" style="max-width: 152px" alt="Imagen decorativa Transporte")
         h5.mb-0.text-center Transporte
       
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
+      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 02
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-2.svg" style="max-width: 152px" alt="Imagen decorativa Almacenamiento")
         h5.mb-0.text-center Almacenamiento
       
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
+      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 03
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-3.svg" style="max-width: 152px" alt="Imagen decorativa Inventarios")
         h5.mb-0.text-center Inventarios
       
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
+      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 04
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-4.svg" style="max-width: 152px" alt="Imagen decorativa Administración")
         h5.mb-0.text-center Administración
       
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
+      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 05
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-5.svg" style="max-width: 152px" alt="Imagen decorativa Procesamiento de ordenes-pedidos")
         h5.mb-0.text-center Procesamiento de <br>ordenes-pedidos
       
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1
+      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 06
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-6.svg" style="max-width: 152px" alt="Imagen decorativa Costos laborales")
         h5.mb-0.text-center Costos laborales
     
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_1 1.1 Introducción a la administración de los costos
     
     .container-100.py-5(
@@ -67,19 +67,19 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_2 1.2 Clasificación de los costos
     
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-2.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-2.jpg')})`}" data-aos="fade-left"
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 La empresa cuenta con una gran variedad de generadores de costos en los que incurre en su operación diaria de producción, comercialización o prestación de servicios; a su vez deben ser clasificados, con el objetivo de ser asignado a un centro o grupo de costo, y deberá asumirlo en su presupuesto, contablemente (Sáez M., R., 2007).
 
-    p.mb-5 Un concepto claro sobre el costo según Sánchez (2014), es “COSTO: se define como el valor sacrificado de unidades monetarias para adquirir bienes o servicios con el fin de obtener beneficios presentes o futuros”.
+    p.mb-5(data-aos="fade-right") Un concepto claro sobre el costo según Sánchez (2014), es “COSTO: se define como el valor sacrificado de unidades monetarias para adquirir bienes o servicios con el fin de obtener beneficios presentes o futuros”.
 
-    h4 Los costos se clasifican en: 
+    h4(data-aos="fade-right") Los costos se clasifican en: 
 
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
       img.col-lg-4.col-xl-4.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-3.svg" style="max-width: 388px;" data-aos="fade-right" alt="Imagen decorativa")
@@ -88,14 +88,14 @@
           div(numero="1" titulo="De acuerdo con la función")
             p <b>Costos de Producción:</b> conciernen a aquellos costos generados en el proceso de transformación de la materia prima en productos terminados. Estos están divididos en:
             ul.lista-ul--separador
-              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 <b>Costos de materia prima:</b> es el costo de materiales involucrados al producto.
-              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 <b>Costos de mano de obra:</b> es el costo involucrado directamente en la transformación del producto.
-              li.d-flex.align-items-start.pb-2.mb-2
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(data-aos="fade-left")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 <b>Gastos indirectos de fabricación:</b> son los costos generados en la transformación de los productos, sin contar con la materia prima y la mano de obra directa.
             p.mb-0 <b>Costos de administración:</b> son aquellos originados en el departamento administrativo, como salarios, servicios públicos, arriendos, etc. Los costos administrativos reúnen los costos de acuerdo con su función, con el fin de producir un análisis más detallado. 
           div(numero="2" titulo="De acuerdo con su comportamiento ")
@@ -127,22 +127,22 @@
                 | <b>Costos predeterminados:</b> son todos aquellos costos estimados con datos estadísticos y son usados en el desarrollo de los presupuestos.
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
-      .tarjeta-avatar-b__img
+      .tarjeta-avatar-b__img(data-aos="fade-right")
         img.mx-auto(src='@/assets/curso/temas/img-2.svg' style="max-width: 104px" alt="Imagen decorativa")
-      .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6")
+      .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6" data-aos="fade-left")
         .p-4.py-md-3.d-flex.flex-wrap.align-items-center
-          p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") La anterior clasificación son las más utilizadas por las empresas y entes reguladores, sin embargo pueden existir otras dependiendo de la orientación o ámbito en el que se desarrollan.
-          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 135px;" data-aos="fade-left" alt="Imagen decorativa")
+          p.mb-0.order-2.order-md-1.col-md.pe-md-4 La anterior clasificación son las más utilizadas por las empresas y entes reguladores, sin embargo pueden existir otras dependiendo de la orientación o ámbito en el que se desarrollan.
+          img.mx-auto.mb-4.mb-md-auto.order-1.order-md-2.mx-lg-5(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 135px;" alt="Imagen decorativa")
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_3 1.3 Distribución de costos en los procesos logísticos
     
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative.mb-5
       img.col-lg-4.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-5.png" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.ps-lg-4
-        .bloque-texto-d.color-primario.px-4.mb-3(style="border-top: none")
+        .bloque-texto-d.color-primario.px-4.mb-3(style="border-top: none" data-aos="fade-left")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left(style="color: #91B3FA")
             p.mb-0 Los costos hacen un recorrido a lo largo de la cadena de suministros “El flujo y el almacenamiento del producto determinan el costo transversal de la cadena de suministro”.
@@ -154,30 +154,30 @@
         p.mb-0 Se puede ver esta distribución de costos en los diferentes procesos:
 
     .slyderB_bg_01.px-5.py-3.mb-5
-      SlyderA(tipo="b")
+      SlyderA(tipo="b" data-aos="zoom-in")
         .d-flex.flex-wrap.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative.pe-lg-4
             .number(data-number="01")
               h4.ps-4 Costos en los procesos logísticos
               p.ps-4 La logística de entrada empieza con el proceso de aprovisionamiento, comprende una serie de actividades interrelacionadas que requieren insumos, recursos de personal para la adquisición de: materia prima, insumos, productos terminados, maquinaria, además. 
                 br
-                |Incluyen estas actividades:
+                | Incluyen estas actividades:
               ul.lista-ul--separador.ps-4.ps-lg-5
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
+                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                   p.mb-0 Selección proveedores.
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
+                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                   p.mb-0 Compra de insumos y materias primas.
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
+                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                   p.mb-0 Certificación de calidad de las materias primas.
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
+                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                   p.mb-0 Negociación de precios, términos de negociación.
-                li.d-flex.align-items-start.pb-2.mb-2
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 <em>Stock</em> mínimos y máximos de inventarios de materia primas.
+                li.d-flex.align-items-start.pb-2.mb-2(data-aos="fade-right")
+                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+                  p.mb-0 <em>Stock</em> mínimo y máximo de inventarios de materia prima.
           .col-6.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img-6.svg' alt="Imagen decorativa")
@@ -263,10 +263,10 @@
     
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_4 1.4 Logística inversa o reversa
     
-    p.mb-5 Tiene como función el reciclaje y recuperación de los empaques, envases y residuos peligrosos, de la misma manera, del retorno de mercancías no conformes de acuerdo con los requerimientos pactados con el cliente. Es una forma de retorno de materiales que reutilizan, reciclan o destruyen, ver figura 1.
+    p.mb-5(data-aos="fade-right") Tiene como función el reciclaje y recuperación de los empaques, envases y residuos peligrosos, de la misma manera, del retorno de mercancías no conformes de acuerdo con los requerimientos pactados con el cliente. Es una forma de retorno de materiales que reutilizan, reciclan o destruyen, ver figura 1.
 
     .mx-auto.col-lg-10.col-xl-8.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
@@ -284,17 +284,17 @@
           .container-data
             h5 Ventajas
             ul.lista-ul--separador
-              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-right")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 Reduce el impacto con el ambiente de los efectos asociados a la producción.
-              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-right")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 Reducción de costos al poder reciclar materias desechas en el proceso productivo.
-              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-right")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 Reducción en el consumo de recursos para minimizar la compra y abastecimiento de nuevas materias primas.
-              li.d-flex.align-items-start.pb-2.mb-2
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-right")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 Incrementa valor en la relación cliente-empresa.
       .col-lg-6.ps-lg-3.mb-4.d-flex
         .container-tarjeta-edit-2(style="background-color: #57DBD8")
@@ -303,56 +303,56 @@
           .container-data
             h5 Desventajas
             ul.lista-ul--separador
-              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-left")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;")
                 p.mb-0 Incremento de actividades laborales debido a la complejidad en la administración de la cadena de suministro; con más personal y tiempo utilizado para el retorno de las mercancías al lugar de producción.
-              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-left")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;")
                 p.mb-0 Participación de todos los departamentos de la empresa.
-              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-left")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;")
                 p.mb-0 Seguimiento de los productos devueltos por personal especializado en inspección de materiales.
-              li.d-flex.align-items-start.pb-2.mb-2
-                img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;" data-aos="fade-right")
+              li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-left")
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;")
                 p.mb-0 Devolución parcial de la mercancía que no permite amortizar correctamente el costo de la logística inversa.
 
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
       img.col-lg-4.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-13.svg" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.ps-lg-4
-        p Dentro del ideal de la operación logística en las organizaciones no debería existir La logística inversa, se ha convertido en un cuello de botella y un costo que incremente y preocupa día a día a la cadena de suministros (especialmente en épocas de crisis y de emergencias). Las devoluciones como comúnmente se denominan, cuentan con un área específica y personal para su respectiva atención.
-        p Este reproceso ha tenido un aumento creciente en estos tiempos del e-comerce por las dificultades que tiene el cliente para ver físicamente el producto, lo que ocasiona incertidumbre al momento de la compra, puesto que no está seguro de la compra, como lo haría tradicionalmente en un almacén de manera presencial. 
+        p(data-aos="fade-left") Dentro del ideal de la operación logística en las organizaciones no debería existir La logística inversa, se ha convertido en un cuello de botella y un costo que incremente y preocupa día a día a la cadena de suministros (especialmente en épocas de crisis y de emergencias). Las devoluciones como comúnmente se denominan, cuentan con un área específica y personal para su respectiva atención.
+        p(data-aos="fade-left") Este reproceso ha tenido un aumento creciente en estos tiempos del e-comerce por las dificultades que tiene el cliente para ver físicamente el producto, lo que ocasiona incertidumbre al momento de la compra, puesto que no está seguro de la compra, como lo haría tradicionalmente en un almacén de manera presencial. 
         .cajon.color-secundario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
           p.mb-0 Es importante hacer claridad que logística inversa se le denomina también a la reutilización de los desechos generados en los procesos de devolución de mercancías y disminución del impacto ambiental. 
 
     .bloque-texto-d.color-primario.p-4.col-lg-10.mx-auto.mb-5(style="border-top: 1px solid #12263F")
-      .bloque-texto-d__texto.mb-2
+      .bloque-texto-d__texto.mb-2(data-aos="fade-right")
         i.fas.fa-quote-left(style="color: #91B3FA")
         p.mb-0 La Confianza entre el consumidor y el cliente se establece a través de cómo se administren las devoluciones. La retroalimentación con el cliente es un factor clave en el desarrollo de actividades de logística inversa, así las cosas, el cliente decidirá comprar nuevamente el producto.
         i.w-100.fas.fa-quote-right(style="color: #91B3FA")
-      .bloque-texto-d__autor 
+      .bloque-texto-d__autor(data-aos="fade-left")
         .h5.mb-0 - Cure (2011)
     
 
     .tarjeta.color-primario.p-3.col-lg-10.mx-auto(style="background: linear-gradient(180deg, rgba(86,140,253,1) 0%, rgba(26,15,145,1) 100%);")
       .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
+        .col-3.col-sm-2.col-lg-1(data-aos="fade-right")
           img(src="@/assets/curso/temas/decorador-5.svg" alt="Imagen decorativa")
-        .col
+        .col(data-aos="fade-left")
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
               h3.mb-1 Logística inversa, más que un costo en la SCM
               p.text-small Con la siguiente lectura complementaría se obtendrá un enfoque adicional de la importancia que tiene la logística inversa para la administración de la cadena de suministro o Supply Chain Management por su origen anglosajón.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://zonalogistica.com/logistica-inversa-mas-que-un-c-en-la-scm/" target="_blank" style="background-color: #E6B046")
+              a.boton.color-acento-botones(href="https://zonalogistica.com/tag/logistica-inversa/" target="_blank" style="background-color: #E6B046")
                 span Ir a página
                 i.fas.fa-link
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_5 1.5 Costos ocultos
     
-    p.mb-5 Los costos ocultos se generan por fallas de las empresas y la cadena de suministros no es ajena; los administradores de la operación logística son los que deben estar atentos a que esto no ocurra y corregir a tiempo. <b>Lo anterior, genera pérdidas económicas, incrementan los costos de la operación y tiene injerencia en la calidad en el servicio, ver figura 2.</b>
+    p.mb-5(data-aos="fade-right") Los costos ocultos se generan por fallas de las empresas y la cadena de suministros no es ajena; los administradores de la operación logística son los que deben estar atentos a que esto no ocurra y corregir a tiempo. <b>Lo anterior, genera pérdidas económicas, incrementan los costos de la operación y tiene injerencia en la calidad en el servicio, ver figura 2.</b>
 
     .mx-auto.col-lg-10.col-xl-8.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
@@ -364,9 +364,9 @@
 
     .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 79%);")
       img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-15.svg" style="max-width: 136px;" data-aos="fade-right" alt="Imagen decorativa")
-      p.col-md.ps-md-4.fw-bold.mb-0 Para Parra (2014) “Los costos ocultos están presentes en todos los departamentos de la organización, por lo cual, se debe corregir con todos los actores involucrados en los procesos productivos”. También son generados en la duplicidad de funciones, derroche y desperdicio de recursos, error en la identificación y clasificación de la mercancía.
+      p.col-md.ps-md-4.fw-bold.mb-0(data-aos="fade-left") Para Parra (2014) “Los costos ocultos están presentes en todos los departamentos de la organización, por lo cual, se debe corregir con todos los actores involucrados en los procesos productivos”. También son generados en la duplicidad de funciones, derroche y desperdicio de recursos, error en la identificación y clasificación de la mercancía.
 
-    p.mb-5 En la siguiente gráfica se observa algunos de los aspectos que generan costos ocultos en las organizaciones, se debe realizar un trabajo de investigación para disminuir esos egresos innecesarios, ver figura 3.
+    p.mb-5(data-aos="fade-right") En la siguiente gráfica se observa algunos de los aspectos que generan costos ocultos en las organizaciones, se debe realizar un trabajo de investigación para disminuir esos egresos innecesarios, ver figura 3.
 
     .mx-auto.col-lg-10.col-xl-8.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
@@ -378,14 +378,14 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_6 1.6 Costos de calidad
 
     .bloque-texto-g.bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-17.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-17.jpg')})`}" data-aos="fade-right"
       )
-      .bloque-texto-g__texto.p-4(data-aos="fade-right")
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Son los costos generados por la organización en su proceso de garantizar la calidad de los productos y servicios al cliente, prestado en las mejores condiciones posibles. Según Gillezeau, P., y Romero, S. (2004) <b>“La calidad se define como la perfección, la consistencia, eliminación del residuo, agilidad en la entrega, suministro de productos conformes, satisfacer al cliente”</b>. La integración de las características anteriores a los procesos logísticos mejora los índices de desempeño no solo en lo operativo, sino que también aumenta los indicadores de eficiencia del departamento financiero.
 
     .d-flex.justify-content-center
@@ -395,19 +395,19 @@
       .d-flex.flex-wrap
         .col-lg-6.pe-lg-3.d-flex.flex-wrap
           img.d-flex.d-lg-none(src="@/assets/curso/temas/tema1/img-19.svg" data-aos="fade-rigth" alt="Imagen decorativa")
-          .tarjeta-edit-2(style="background-color: #6F88DA")
+          .tarjeta-edit-2(style="background-color: #6F88DA" data-aos="fade-right")
             h3.text-center Costos tangibles
             p.mb-0 Son los costos que se calculan de forma directa, objetiva y normalmente están asociados al manejo de dinero en efectivo. Estos costos abarcan la mano de obra o materia prima producida por un error en el proceso productivo.
         .col-lg-6.ps-lg-3.d-flex.flex-wrap
           img.d-flex.d-lg-none(src="@/assets/curso/temas/tema1/img-20.svg" data-aos="fade-left" alt="Imagen decorativa")
-          .tarjeta-edit-2(style="background-color: #4ADBD1")
+          .tarjeta-edit-2(style="background-color: #4ADBD1" data-aos="fade-left")
             h3.text-center Costos intangibles
             p.mb-0 Son los costos generados por errores en la cadena de valor de la organización, es decir, son los costos producidos por fallas en el proceso productivo, las cuales generan un bien o servicio no conforme con las expectativas del cliente. Estos costos tangibles son calculados con criterios subjetivos (escala cualificable) como la ausencia de motivación en el personal por las continuas quejas de los clientes.
     
     .cajon.color-secundario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
       p.mb-0 Los costos de calidad son una herramienta para descubrir oportunidades que conduzcan a procesos de mejora continua. Se deben considerar como una inversión a largo plazo, constante 24/7, para garantizar las condiciones y que el cliente se sienta a gusto con la organización. Esto se logra por medio de programas asumidos por las directivas para lograr mayor competitividad.
     
-    p.mb-5 En la siguiente figura 4 se observa cuales conceptos hacen parte de los costos de calidad. Gillezeau, P., & Romero, S. (2004):
+    p.mb-5(data-aos="fade-right") En la siguiente figura 4 se observa cuales conceptos hacen parte de los costos de calidad. Gillezeau, P., & Romero, S. (2004):
 
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
@@ -419,20 +419,20 @@
 
     Separador 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_7 1.7 Conceptos básicos de economía
     
-    p.mb-5 La economía es la encargada del análisis de las diferentes variables y comportamiento de los mercados económicos en el mundo. La economía se describe a dos niveles: macroeconomía y microeconomía, y se encarga de estudiar, clasificar e interpretar los diferentes movimientos, además de los conceptos con respecto al movimiento de productos y servicios que se genera, así como el intercambio por dinero al satisfacer una necesidad especifica. 
+    p.mb-5(data-aos="fade-right") La economía es la encargada del análisis de las diferentes variables y comportamiento de los mercados económicos en el mundo. La economía se describe a dos niveles: macroeconomía y microeconomía, y se encarga de estudiar, clasificar e interpretar los diferentes movimientos, además de los conceptos con respecto al movimiento de productos y servicios que se genera, así como el intercambio por dinero al satisfacer una necesidad especifica. 
 
     .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 79%);")
       img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-22.svg" style="max-width: 136px;" data-aos="fade-right" alt="Imagen decorativa")
-      p.col-md.ps-md-4.fw-bold.mb-0 Según Economipedia (2020) “La economía es una ciencia social que estudia la forma de administrar los recursos disponibles para satisfacer las necesidades humanas. Además, también estudia el comportamiento y las acciones de los seres humanos”. Estudia la ley de la oferta y la demanda, fija los precios del mercado de oferta y demanda del sector productivo de los países, ver figura 5. 
+      p.col-md.ps-md-4.fw-bold.mb-0(data-aos="fade-left") Según Economipedia (2020) “La economía es una ciencia social que estudia la forma de administrar los recursos disponibles para satisfacer las necesidades humanas. Además, también estudia el comportamiento y las acciones de los seres humanos”. Estudia la ley de la oferta y la demanda, fija los precios del mercado de oferta y demanda del sector productivo de los países, ver figura 5. 
 
     .mx-auto.col-lg-10.col-xl-8.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 5.
         span Colores de la economía
-      ImagenInfografica.color-secundario.mb-5.w-100.d-none.d-md-block
+      ImagenInfografica.color-secundario.mb-5.w-100.d-none.d-md-block(data-aos="zoom-in")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/img-23.svg' alt="figura 5. Muestra los colores de la economía que se explican luego de la imagen.")
@@ -459,9 +459,9 @@
         .tarjeta.tarjeta-infografia.text-white.p-3(x="36%" y="20%" numero="+" style="background-color: #12263F")
           span.number-edit 07
           p Busca cuidar el planeta aprovechando al máximo los recursos e infraestructuras que se poseen actualmente.
-      p.d-block.d-md-none La economía es una ciencia social que además de poder ser analizada desde distintos sectores también se puede analizar a través de los colores, tomando en cuenta que los elementos comunes de cada sector, para así observar los productos que se obtienen en cada área o actividad realizada.
+      p.d-block.d-md-none(data-aos="fade-right") La economía es una ciencia social que además de poder ser analizada desde distintos sectores también se puede analizar a través de los colores, tomando en cuenta que los elementos comunes de cada sector, para así observar los productos que se obtienen en cada área o actividad realizada.
 
-      ImagenInfografica.color-secundario.mb-5.w-100.d-block.d-md-none
+      ImagenInfografica.color-secundario.mb-5.w-100.d-block.d-md-none(data-aos="zoom-in")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/img-23_1.svg')
@@ -490,25 +490,25 @@
           p Busca cuidar el planeta aprovechando al máximo los recursos e infraestructuras que se poseen actualmente.
 
 
-    p.mb-5 La economía tiene dos ramas, centradas en el estudio de la economía y sus diferentes variables según Economipedia (2020), ver figura 6:
+    p.mb-5(data-aos="fade-right") La economía tiene dos ramas, centradas en el estudio de la economía y sus diferentes variables según Economipedia (2020), ver figura 6:
 
     .d-flex.flex-wrap.mb-5
-      .col-lg-6.pe-lg-3.d-flex
+      .col-lg-6.mb-lg-0.mb-4.pe-lg-3.d-flex(data-aos="fade-right")
         .tarjeta-avatar-b.col-xl-11.me-xl-auto
           .tarjeta-avatar-b__img
             img.mx-auto(src='@/assets/curso/temas/tema1/img-24.svg' style="max-width: 104px" alt="Imagen decorativa")
           .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6; box-shadow: 0 2px 4px 4px #00000010")
             .p-4.py-md-3.d-flex.flex-wrap.align-items-center
               p.w-100.fw-bold Microeconomía
-              p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") Es el estudio orientado a los hábitos económicos de hogares, empresas y personas y la relación con los mercados.
-      .col-lg-6.ps-lg-3.d-flex
+              p.mb-0.order-2.order-md-1.col-md.pe-md-4 Es el estudio orientado a los hábitos económicos de hogares, empresas y personas y la relación con los mercados.
+      .col-lg-6.ps-lg-3.d-flex(data-aos="fade-left")
         .tarjeta-avatar-b.col-xl-11.me-xl-auto
           .tarjeta-avatar-b__img
             img.mx-auto(src='@/assets/curso/temas/tema1/img-25.svg' style="max-width: 104px" alt="Imagen decorativa")
           .tarjeta.tarjeta--azul.ps-lg-5(style="background-color: #F6F6F6; box-shadow: 0 2px 4px 4px #00000010")
             .p-4.py-md-3.d-flex.flex-wrap.align-items-center
               p.w-100.fw-bold Macroeconomía
-              p.mb-0.order-2.order-md-1.col-md.pe-md-4(data-aos="fade-right") Analiza la dinámica mundial de la economía de manera holística, de tal manera explica el desarrollo de los diferentes factores económicos.
+              p.mb-0.order-2.order-md-1.col-md.pe-md-4 Analiza la dinámica mundial de la economía de manera holística, de tal manera explica el desarrollo de los diferentes factores económicos.
 
     .mx-auto.col-lg-10.col-xl-8
       .titulo-sexto.color-acento-botones(data-aos="fade-right")

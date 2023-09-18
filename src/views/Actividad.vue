@@ -4,11 +4,11 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
-      .col-12.col-md-8.col-lg-9
+      .col-12.col-md-8.col-lg-9(data-aos="fade-left")
         .titulo-segundo
           h2 Actividades de la contabilidad de costos
         p.mb-4 Implementar un sistema de contabilidad de costos o contabilidad analítica que genere información precisa sobre los costos en la producción de mercancías o servicios, con el fin de tomar decisiones estratégicas y mejorar la eficiencia operativa de la organización.
