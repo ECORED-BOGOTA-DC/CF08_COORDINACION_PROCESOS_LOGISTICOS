@@ -86,7 +86,7 @@
       .col-lg-8.col-xl-8.ps-lg-4
         LineaTiempoD.color-secundario(data-aos="fade-right")
           div(numero="1" titulo="De acuerdo con la función")
-            p <b>Costos de Producción:</b> conciernen a aquellos costos generados en el proceso de transformación de la materia prima en productos terminados. Estos están divididos en:
+            p <b>Costos de producción:</b> conciernen a aquellos costos generados en el proceso de transformación de la materia prima en productos terminados. Estos están divididos en:
             ul.lista-ul--separador
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-left")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
@@ -184,7 +184,7 @@
         .d-flex.flex-wrap.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative.pe-lg-4
             .number(data-number="02")
-              h4.ps-4 Costos en la gestión de Inventarios
+              h4.ps-4 Costos en la gestión de inventarios
               p.ps-4 La logística interna se ve reflejada en la gestión de inventarios que genera unas actividades y costos relacionados con su actividad. Para ello requiere recursos, insumos y personal para su importante actividad dentro de los procesos logísticos, que incluyen estas actividades; es importante hacer claridad que en el inventario se encuentra la mayor cantidad de recursos de la empresa, que debe ser administrado de manera correcta:
               .d-flex.flex-wrap
                 ul.lista-ul--separador.ps-4.ps-lg-5.col-lg-6.px-2
@@ -213,7 +213,7 @@
         .d-flex.flex-wrap.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative.pe-lg-4
             .number(data-number="03")
-              h4.ps-4 Costos de Distribución
+              h4.ps-4 Costos de distribución
               p.ps-4 La logística de salida enmarca los procesos de transporte y distribución física de las mercancías y productos; es el último eslabón de la cadena hacia el consumidor final. Requiere recursos, insumos y personal para su importante actividad dentro de los procesos logísticos; representan un porcentaje alto, del total de los costos de la cadena de abastecimiento:
               ul.lista-ul--separador.ps-4.ps-lg-5
                 li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
@@ -237,26 +237,9 @@
         .d-flex.flex-wrap.justify-content-center.align-items-center
           .col-lg-8.mb-4.mb-lg-0.pt-5.pt-0.position-relative.pe-lg-4
             .number(data-number="04")
-              h4.ps-4 Costos en los procesos logísticos.
-              p.ps-4 La logística de entrada empieza con el proceso de aprovisionamiento, comprende una serie de actividades interrelacionadas que requieren insumos, recursos de personal para la adquisición de: materia prima, insumos, productos terminados, maquinaria, además. 
-                br
-                |Incluyen estas actividades:
-              ul.lista-ul--separador.ps-4.ps-lg-5
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Selección proveedores.
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Compra de insumos y materias primas.
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Certificación de calidad de las materias primas.
-                li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed")
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 Negociación de precios, términos de negociación.
-                li.d-flex.align-items-start.pb-2.mb-2
-                  img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;" data-aos="fade-right")
-                  p.mb-0 <em>Stock</em> mínimos y máximos de inventarios de materia primas
+              h4.ps-4 Costos de almacenamiento
+              p Los costos logísticos asociados con el proceso de almacenamiento se evidencian a través de toda la cadena de suministro; es por ello que es importante aclarar que el aprovisionamiento, inventarios y distribución, tienen dentro de sus actividades y costos algún tipo de almacenamiento por mínimo que sea, de igual manera requiere recursos, insumos y personal para su importante actividad.
+              p.mb-0 Para Castro (2016) “#[em El almacenamiento se puede definir como el componente del sistema logístico de la empresa que guarda productos (materias primas, partes, productos en proceso y productos terminados) en (y entre) los puntos de origen y de consumo. El almacenamiento tiene tres funciones básicas: movimiento, depósito y transferencia de información (Lambert, Stock & Ellram, 1998)]”.
           .col-6.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema1/img-9.svg' alt="Imagen decorativa")
@@ -271,7 +254,7 @@
     .mx-auto.col-lg-10.col-xl-8.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 1.
-        span Logística Inversa
+        span Logística inversa
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-10.svg" style="max-width: 825px;" data-aos="fade-left" alt="Figura 1. Muestra la logística inversa de la siguiente manera: Cliente final, devoluciones, centro de devoluciones, distribución para reventa que este se subdivide en producto reciclado y reventa y finalmente cliente final.")
         figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Operación de logística inversa.
@@ -432,34 +415,34 @@
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 5.
         span Colores de la economía
+      .h5.text-center La economía es una ciencia social que además de poder ser analizada desde distintos sectores también se puede analizar a través de los colores, tomando en cuenta que los elementos comunes de cada sector, para así observar los productos que se obtienen en cada área o actividad realizada.
       ImagenInfografica.color-secundario.mb-5.w-100.d-none.d-md-block(data-aos="zoom-in")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/img-23.svg' alt="figura 5. Muestra los colores de la economía que se explican luego de la imagen.")
             figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Los sectores de la economía (2019).
 
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="59%" y="10%" numero="+" style="background-color: #12263F")
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="50%" y="10%" numero="+" style="background-color: #12263F")
           span.number-edit 01
           p Hace referencia al consumismo como el centro del crecimiento económico.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="82%" y="21%" numero="+" style="background-color: #12263F")
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="78%" y="21%" numero="+" style="background-color: #12263F")
           span.number-edit 02
           p Toma en cuenta el avance tecnológico sin dejar a un lado el cuidado del medio ambiente.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="87%" y="53%" numero="+" style="background-color: #12263F")
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="83%" y="53%" numero="+" style="background-color: #12263F")
           span.number-edit 03
           p Consiste en englobar todos los ingresos de las artes y todos aquellos productos y servicios de la actividad artística y cultural.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="71.5%" y="74%" numero="+" style="background-color: #12263F")
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="65%" y="74%" numero="+" style="background-color: #12263F")
           span.number-edit 04
           p Hace referencia a la economía ilegal, a las actividades que están prohibidas.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="46%" y="74%" numero="+" style="background-color: #12263F")
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="34%" y="74%" numero="+" style="background-color: #12263F")
           span.number-edit 05
           p Hace referencia a todas las actividades que son legales, pero están ocultas ante el Estado para evitar el pago de impuestos.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="31%" y="53%" numero="+" style="background-color: #12263F")
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="16%" y="53%" numero="+" style="background-color: #12263F")
           span.number-edit 06
           p Está enfocada en los productos de alta tecnología y de la ciencia.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="36%" y="20%" numero="+" style="background-color: #12263F")
+        .tarjeta.tarjeta-infografia.text-white.p-3(x="22%" y="20%" numero="+" style="background-color: #12263F")
           span.number-edit 07
           p Busca cuidar el planeta aprovechando al máximo los recursos e infraestructuras que se poseen actualmente.
-      p.d-block.d-md-none(data-aos="fade-right") La economía es una ciencia social que además de poder ser analizada desde distintos sectores también se puede analizar a través de los colores, tomando en cuenta que los elementos comunes de cada sector, para así observar los productos que se obtienen en cada área o actividad realizada.
 
       ImagenInfografica.color-secundario.mb-5.w-100.d-block.d-md-none(data-aos="zoom-in")
         template(v-slot:imagen)

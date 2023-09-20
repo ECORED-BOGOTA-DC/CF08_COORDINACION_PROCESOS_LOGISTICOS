@@ -69,7 +69,7 @@
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 10.
-        span Estructura del presupuesto Maestro
+        span Estructura del presupuesto maestro
       figure
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema3/img-5.svg" style="max-width: 798px;" data-aos="fade-left" alt="Figura 10. describe la estructura de un presupuesto maestro que viene de manera descendente en orden así:  Presupuesto de operación presupuesto de ventas Presupuesto de producción En la misma línea viene: presupuesto de materia prima, mano de obra y de gastos indirectos de fabricación. Continúa hacia abajo así: Costos de producción Gastos de ventas y administrativos presupuesto financiero y finalmente sobre la misma línea: Estado de resultados Estado de flujo de efectivo balance general presupuestado.")
         figcaption(style="font-weight: normal") <b>Nota.</b> Presupuesto Maestro como guía y horizonte. Adaptada de Escobar S. (2019).
@@ -85,7 +85,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
-              h3.mb-1 ¿Qué es un presupuesto? Conoce los tipos de presupuesto y ejemplos para su cálculo.
+              h3.mb-1 ¿Qué es un presupuesto? Conoce los tipos de presupuesto y ejemplos para su cálculo
               p.text-small Para una ampliación del tema sobre presupuestos, visitar la página Gestion.Org. 
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.gestion.org/que-es-un-presupuesto/" target="_blank" style="background-color: #E6B046")
@@ -99,7 +99,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
-              h3.mb-1 Práctica, Ejercicio de Presupuesto Maestro.
+              h3.mb-1 Práctica, ejercicio de presupuesto maestro
               p.text-small Ver ejercicios prácticos de presupuesto maestro en el siguiente enlace, Solo Contabilidad. 
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.solocontabilidad.com/costos-ejercicios/practica-ejercicio-de-presupuesto-maestro-costos-presupuesto" target="_blank" style="background-color: #E6B046")
@@ -109,7 +109,7 @@
     Separador 
 
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
-      h2#t_3_2 3.2 Presupuestos en los procesos Logísticos
+      h2#t_3_2 3.2 Presupuestos en los procesos logísticos
     
     p.mb-5 Se realizan los presupuestos en todos los niveles: estratégico, táctico y operativo. Empiezan desde la alta dirección con las metas y objetivos organizacionales trazados y son importantes para la toma de decisiones en las empresas, negocio o idea de un proyecto. 
 
@@ -120,7 +120,7 @@
           img.img-decorativa(src="@/assets/curso/temas/decorador-4.svg" data-aos="zoom-in" alt="Imagen decorativa")
           .container-data(data-aos="fade-right")
             h5 Presupuesto de egresos
-            p Los presupuestos de costos y gastos, están compuestos por otros presupuestos más pequeños por departamentos, que se van a integrar al presupuesto de producción, para realizar el gran Presupuesto Maestro de la organización.
+            p Los presupuestos de costos y gastos, están compuestos por otros presupuestos más pequeños por departamentos, que se van a integrar al presupuesto de producción, para realizar el gran presupuesto maestro de la organización.
       .col-lg-6.ps-lg-3.mb-4.d-flex
         .container-tarjeta-edit-2(style="background-color: #57DBD8")
           img(src="@/assets/curso/temas/tema3/img-10.jpg" alt="Imagen decorativa")
@@ -131,19 +131,19 @@
             ul.lista-ul--separador
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-right")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;")
-                p.mb-0 Presupuesto Costos Compras y Aprovisionamiento.
+                p.mb-0 Presupuesto costos compras y aprovisionamiento.
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-right")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;")
-                p.mb-0 Presupuesto Costos Almacenamiento.
+                p.mb-0 Presupuesto costos almacenamiento.
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-right")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;")
-                p.mb-0 Presupuestos costo   Inventarios.
+                p.mb-0 Presupuestos costo inventarios.
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-right")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;")
-                p.mb-0 Presupuesto Costos Transporte y Distribución Física.
+                p.mb-0 Presupuesto costos transporte y distribución física.
               li.d-flex.align-items-start.pb-2.mb-2(data-aos="fade-right")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-3.svg" style="max-width: 15px;")
-                p.mb-0 Presupuesto Costos Servicio al cliente.
+                p.mb-0 Presupuesto costos servicio al cliente.
 
     p.mb-5(data-aos="fade-right") Los presupuestos son considerados una herramienta interna de planeación y proyección financiera a largo plazo.
 

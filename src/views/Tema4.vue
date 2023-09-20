@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
-      h1 Estados Financieros
+      h1 Estados financieros
     
     .bloque-texto-g.bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -233,7 +233,6 @@
       figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Ejemplo del Estado de Situación Financiera de una empresa (2020).
     
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_4_2 4.2 Estado de resultados
     
@@ -416,10 +415,9 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
-              h3.mb-1 Impacto de las NICSP
-              p.text-small Lectura complementaria <b>estado de costo de producción y ventas y su incidencia en la mano de obra</b> para las entidades de gobierno en Colombia.
+              h3.mb-1 Estado de costo de producción y ventas y su incidencia en la mano de obra
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF008_4.3_pdf_Estado_de_costo_de_produccion_y_ventas.pdf')" target="_blank" style="background-color: #E6B046")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Estado_de_costo_de_produccion_y_ventas.pdf')" target="_blank" style="background-color: #E6B046")
                 span Descargar
                 i.fas.fa-file-download
       
@@ -445,14 +443,14 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
-              h3.mb-1 Estado de costo de producción y ventas
+              h3.mb-1 Impacto operativo en el proceso de convergencia a las nicsp para las entidades de gobierno en Colombia
               p.text-small Lectura complementaria <b>impacto operativo en el proceso de convergencia a las NICSP para las entidades de gobierno en Colombia</b>.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF008_4.4_pdf_Impacto_de_las_NICSP.pdf')" target="_blank" style="background-color: #E6B046")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Impacto_de_las_NICSP.pdf')" target="_blank" style="background-color: #E6B046")
                 span Descargar
                 i.fas.fa-file-download
+    
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_4_5 4.5 Análisis financiero
     
@@ -470,10 +468,10 @@
         p.mb-5 Permite analizar el peso porcentual de cada componente de los estados financieros, es decir del balance general y el estado de resultados. Los resultados que arroje el análisis; son presentados en variaciones absolutas y relativas.
         img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;" alt="Figura 14. Muestra un análisis vertical donde se describe las cuentas de la empresa los comparativos del año 2012, 2011 la variación y el porcentaje.")
         p.fw-bold.w-100.text-center ejemplo de análisis vertical
-      .d-flex.flex-wrap(titulo="Análisis Horizontal")
+      .d-flex.flex-wrap(titulo="Análisis horizontal")
         p.mb-5 Permite realizar un análisis de manera horizontal a los estados financieros y al balance general en 2 periodos (años) consecutivos para ver sus respectivas variaciones. Según Economipedia (2020) “El análisis horizontal calcula la variación absoluta y relativa que ha tenido cada una de las partidas del balance o la cuenta de resultados, en dos períodos de tiempo consecutivos”. Los resultados que arroje el análisis; son presentados en variaciones absolutas y relativas.
         img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;" alt="Figura 15- Expone a través de un ejemplo el análisis horizontal con la descripción de la cuenta de resultados luego año 1 y año 2 acompañado de los valores de la variación absoluta y relativa.")
-        p.fw-bold.w-100.text-center ejemplo de análisis horizontal
+        p.fw-bold.w-100.text-center Ejemplo de análisis horizontal
 
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_4_6 4.6 Indicadores de gestión financieras
@@ -506,7 +504,7 @@
               h3.mb-1 Principales indicadores financieros y de gestión 
               p.text-small Para conocer más sobre los indicadores financieros, descargar el documento sobre: Principales indicadores financieros y de gestión del Instituto Nacional de Contadores Públicos de Colombia (INCPC).
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/CF008_4.6_pdf_principales_indicadores_financieros.pdf')" target="_blank" style="background-color: #E6B046")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/principales_indicadores_financieros.pdf')" target="_blank" style="background-color: #E6B046")
                 span Descargar
                 i.fas.fa-file-download
 

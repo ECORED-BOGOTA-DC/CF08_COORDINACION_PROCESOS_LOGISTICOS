@@ -104,12 +104,12 @@ export default {
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Presupuestos en los procesos Logísticos',
+            titulo: 'Presupuesto maestro',
             hash: 't_2_1',
           },
           {
             numero: '3.2',
-            titulo: 'Presupuestos en los procesos Logísticos',
+            titulo: 'Presupuestos en los procesos logísticos',
             hash: 't_2_2',
           },
         ],

@@ -102,7 +102,7 @@
       .col-lg-8.col-xl-9.col-md-7.ps-md-4
         p(data-aos="fade-left") Los sistemas de costeo más relevante, que se aplica en las organizaciones y que los estudiosos del tema, han denominado Actividad Basada en Costos (ABC), permite a las organizaciones asignar los costos de manera proporcional a su participación en la elaboración de productos y servicios y por su precisión es aconsejable su uso. 
         .cajon.color-primario.p-4.mb-3(data-aos="fade-left" style="background-color: #E0F4FE")
-          p.mb-0 Según el portal www.gerencie.com el <em>Active Based Costing</em>, por sus siglas en inglés, es un sistema de costos frecuentemente utilizado por las organizaciones actuales, lo cual remplazó los sistemas obsoletos de administración. 
+          p.mb-0 Según el portal <a href="www.gerencie.com" target="_blank" style="color: #111e61; font-weight: 900">www.gerencie.com</a> el <em>Active Based Costing</em>, por sus siglas en inglés, es un sistema de costos frecuentemente utilizado por las organizaciones actuales, lo cual remplazó los sistemas obsoletos de administración. 
         p.mb-0(data-aos="fade-left") La Actividad Basada en Costos (ABC), considerada actualmente el sistema de costeo más moderno del mundo, se puede aplicar de diferente forma:
 
     .tarjeta--container.row.mb-5
@@ -113,7 +113,7 @@
               img(src='@/assets/curso/temas/tema2/img-9.svg'  alt="Imagen decorativa")
           
         h4 Procesos
-        p El sistema de costos por procesos permite asignar y acumular los costos a los productos por proceso logísticos. Colin (2014), En economías a escala la asignación de costos por procesos, los costos se reúnen en un determinado espacio de tiempo por cada departamento, proceso o nodo de costo.
+        p El sistema de costos por procesos permite asignar y acumular los costos a los productos por proceso logísticos. Colin (2014), en economías a escala la asignación de costos por procesos, los costos se reúnen en un determinado espacio de tiempo por cada departamento, proceso o nodo de costo.
 
       .col-md.tarjeta.color-acento-botones.p-5(style="background-color: #D8E4FD" data-aos="flip-up")
         .row.justify-content-center.mb-4
@@ -223,7 +223,7 @@
           table
             thead
               tr(style="background-color: #E9F0FE")
-                th Costo de Mantenimiento de inventario
+                th Costo de mantenimiento de inventario
                 th Costo de pedido, embarque y recepción de inventario
                 th Costo de faltantes de inventario
             tbody(style="background-color: white;")
@@ -315,7 +315,7 @@
         p El proceso logístico en mención, se presenta a lo largo de toda la cadena de suministro y operaciones logísticas.
         img(src="@/assets/curso/temas/tema2/img-18.svg" alt="Imagen de esquema que describe el costo de almacenamiento en que incurre la empresa como es el costo de pedir y ordenar un pedido con sus características y el costo de mantener el inventario.")
 
-      .d-flex.flex-wrap(titulo="Costos de Transporte y Producción")
+      .d-flex.flex-wrap(titulo="Costos de transporte y producción")
         p Se consideran uno de los recursos a destinar más altos de los procesos logísticos, y se debe realizar el estudio de los costos y beneficios, pros y contras de tener flota propia o arrendarla; ya que implican los siguientes costos asociados:
         .d-flex.flex-wrap.mb-4.w-100
           img.col-lg-4.col-xl-3.col-md-5.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/img-19.png" style="max-width: 298px;" alt="Imagen decorativa")
