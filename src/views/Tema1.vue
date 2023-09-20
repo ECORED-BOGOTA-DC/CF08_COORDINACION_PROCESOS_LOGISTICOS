@@ -23,32 +23,32 @@
       p.mb-0 Los costos constituyen un rubro importante dentro del desarrollo de la cadena de abastecimiento y el impacto sobre los costos finales y utilidad de organización son importantes, para replantear objetivos hacia el cumplimiento de la misión y visión, a continuación, los costos relacionados con los procesos:
 
     .d-flex.flex-wrap.justify-content-center.mb-5
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
+      .col-xl-2.col-lg-3.mb-xl-0.mb-4.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 01
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-1.svg" style="max-width: 152px" alt="Imagen decorativa Transporte")
         h5.mb-0.text-center Transporte
       
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
+      .col-xl-2.col-lg-3.mb-xl-0.mb-4.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 02
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-2.svg" style="max-width: 152px" alt="Imagen decorativa Almacenamiento")
         h5.mb-0.text-center Almacenamiento
       
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
+      .col-xl-2.col-lg-3.mb-xl-0.mb-4.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 03
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-3.svg" style="max-width: 152px" alt="Imagen decorativa Inventarios")
         h5.mb-0.text-center Inventarios
       
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
+      .col-xl-2.col-lg-3.mb-xl-0.mb-4.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 04
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-4.svg" style="max-width: 152px" alt="Imagen decorativa Administración")
         h5.mb-0.text-center Administración
       
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
+      .col-xl-2.col-lg-3.mb-xl-0.mb-4.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 05
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-5.svg" style="max-width: 152px" alt="Imagen decorativa Procesamiento de ordenes-pedidos")
         h5.mb-0.text-center Procesamiento de <br>ordenes-pedidos
       
-      .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
+      .col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="flip-up")
         span.number-tj 06
         img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/tj-6.svg" style="max-width: 152px" alt="Imagen decorativa Costos laborales")
         h5.mb-0.text-center Costos laborales
@@ -416,7 +416,7 @@
         h5 Figura 5.
         span Colores de la economía
       .h5.text-center La economía es una ciencia social que además de poder ser analizada desde distintos sectores también se puede analizar a través de los colores, tomando en cuenta que los elementos comunes de cada sector, para así observar los productos que se obtienen en cada área o actividad realizada.
-      ImagenInfografica.color-secundario.mb-5.w-100.d-none.d-md-block(data-aos="zoom-in")
+      ImagenInfografica.color-secundario.mb-5.w-100(data-aos="zoom-in")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/temas/tema1/img-23.svg' alt="figura 5. Muestra los colores de la economía que se explican luego de la imagen.")
@@ -443,35 +443,6 @@
         .tarjeta.tarjeta-infografia.text-white.p-3(x="22%" y="20%" numero="+" style="background-color: #12263F")
           span.number-edit 07
           p Busca cuidar el planeta aprovechando al máximo los recursos e infraestructuras que se poseen actualmente.
-
-      ImagenInfografica.color-secundario.mb-5.w-100.d-block.d-md-none(data-aos="zoom-in")
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/temas/tema1/img-23_1.svg')
-            figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Los sectores de la economía (2019).
-
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="50%" y="9%" numero="+" style="background-color: #12263F")
-          span.number-edit 01
-          p Hace referencia al consumismo como el centro del crecimiento económico.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="78%" y="19%" numero="+" style="background-color: #12263F")
-          span.number-edit 02
-          p Toma en cuenta el avance tecnológico sin dejar a un lado el cuidado del medio ambiente.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="83.5%" y="45%" numero="+" style="background-color: #12263F")
-          span.number-edit 03
-          p Consiste en englobar todos los ingresos de las artes y todos aquellos productos y servicios de la actividad artística y cultural.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="65.5%" y="65%" numero="+" style="background-color: #12263F")
-          span.number-edit 04
-          p Hace referencia a la economía ilegal, a las actividades que están prohibidas.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="33.5%" y="65%" numero="+" style="background-color: #12263F")
-          span.number-edit 05
-          p Hace referencia a todas las actividades que son legales, pero están ocultas ante el Estado para evitar el pago de impuestos.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="16%" y="47%" numero="+" style="background-color: #12263F")
-          span.number-edit 06
-          p Está enfocada en los productos de alta tecnología y de la ciencia.
-        .tarjeta.tarjeta-infografia.text-white.p-3(x="22%" y="19%" numero="+" style="background-color: #12263F")
-          span.number-edit 07
-          p Busca cuidar el planeta aprovechando al máximo los recursos e infraestructuras que se poseen actualmente.
-
 
     p.mb-5(data-aos="fade-right") La economía tiene dos ramas, centradas en el estudio de la economía y sus diferentes variables según Economipedia (2020), ver figura 6:
 
