@@ -102,7 +102,7 @@
       .col-lg-8.col-xl-9.col-md-7.ps-md-4
         p(data-aos="fade-left") Los sistemas de costeo más relevante, que se aplica en las organizaciones y que los estudiosos del tema, han denominado Actividad Basada en Costos (ABC), permite a las organizaciones asignar los costos de manera proporcional a su participación en la elaboración de productos y servicios y por su precisión es aconsejable su uso. 
         .cajon.color-primario.p-4.mb-3(data-aos="fade-left" style="background-color: #E0F4FE")
-          p.mb-0 Según el portal <a href="www.gerencie.com" target="_blank" style="color: #111e61; font-weight: 900">www.gerencie.com</a> el <em>Active Based Costing</em>, por sus siglas en inglés, es un sistema de costos frecuentemente utilizado por las organizaciones actuales, lo cual remplazó los sistemas obsoletos de administración. 
+          p.mb-0 Según el portal <a href="https://www.gerencie.com/" target="_blank" style="color: #111e61; font-weight: 900">www.gerencie.com</a> el <em>Active Based Costing</em>, por sus siglas en inglés, es un sistema de costos frecuentemente utilizado por las organizaciones actuales, lo cual remplazó los sistemas obsoletos de administración. 
         p.mb-0(data-aos="fade-left") La Actividad Basada en Costos (ABC), considerada actualmente el sistema de costeo más moderno del mundo, se puede aplicar de diferente forma:
 
     .tarjeta--container.row.mb-5

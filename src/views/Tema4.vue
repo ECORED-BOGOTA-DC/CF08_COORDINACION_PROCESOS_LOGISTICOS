@@ -443,7 +443,6 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0.texto-blanco
-              h3.mb-1 Impacto operativo en el proceso de convergencia a las nicsp para las entidades de gobierno en Colombia
               p.text-small Lectura complementaria <b>impacto operativo en el proceso de convergencia a las NICSP para las entidades de gobierno en Colombia</b>.
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Impacto_de_las_NICSP.pdf')" target="_blank" style="background-color: #E6B046")
@@ -467,7 +466,7 @@
       .d-flex.flex-wrap(titulo="Análisis vertical")
         p.mb-5 Permite analizar el peso porcentual de cada componente de los estados financieros, es decir del balance general y el estado de resultados. Los resultados que arroje el análisis; son presentados en variaciones absolutas y relativas.
         img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;" alt="Figura 14. Muestra un análisis vertical donde se describe las cuentas de la empresa los comparativos del año 2012, 2011 la variación y el porcentaje.")
-        p.fw-bold.w-100.text-center ejemplo de análisis vertical
+        p.fw-bold.w-100.text-center Ejemplo de análisis vertical
       .d-flex.flex-wrap(titulo="Análisis horizontal")
         p.mb-5 Permite realizar un análisis de manera horizontal a los estados financieros y al balance general en 2 periodos (años) consecutivos para ver sus respectivas variaciones. Según Economipedia (2020) “El análisis horizontal calcula la variación absoluta y relativa que ha tenido cada una de las partidas del balance o la cuenta de resultados, en dos períodos de tiempo consecutivos”. Los resultados que arroje el análisis; son presentados en variaciones absolutas y relativas.
         img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;" alt="Figura 15- Expone a través de un ejemplo el análisis horizontal con la descripción de la cuenta de resultados luego año 1 y año 2 acompañado de los valores de la variación absoluta y relativa.")
