@@ -58,15 +58,20 @@
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_1 1.1 Introducción a la administración de los costos
     
-    .container-100.py-5(
+    .container-100.py-4(
       style="background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(233,255,254,1) 50%, rgba(255,255,255,1) 100%);"
     )
-      figure.col-xl-10.mx-auto(data-aos="fade-left")
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
+      p(data-aos="fade-right") Como se indicó en la introducción los costos logísticos, las empresas deben trazar las estrategias a todos los niveles operativos. Blocher (2008) en sus importantes apreciaciones sobre la administración nos deja claro que, “la competencia mundial, la innovación tecnológica y las actuales metodologías de negociación hacen más significativa y dinámica la administración de costos, desde el punto de vista estratégico de los administradores”
+      .row.justify-content-center.mb-4
+        .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+          img(src='@/assets/curso/temas/tema1/img01.svg' alt="Imagen decorativa")
+        .col-lg-8
+          .cajon.color-primario.p-4.mb-4(data-aos="fade-left")
+            p.mb-0 Dentro de la alta gerencia se requiere una administración cuidadosa y controlada de los costos, que no afecte la operación normal, pero igualmente que no desborde hasta llevar a la empresa al colapso, información detallada, confiable y clara permite la correcta toma de decisiones, depende el tipo de empresa es la distribución de los costos en manufactura y en servicios, la globalización, la tecnología el e-comerce hace cada vez más acelerada administración de las empresas, en un mercado exigente y competitivo.
+          p.mb-0(data-aos="fade-left") El enfoque de cliente y el aumento de las expectativas del consumidor ha cambiado aspectos como la calidad del producto, usos, características, acceso a la compra y al mismo ritmo las organizaciones realizan sus cambios, para dar respuesta oportuna a las nuevas exigencias de clientes y la evolución del mercado. Según Blocher (2008) nos indica en su libro sobre administración del costo “Los aspectos estratégicos son valiosos para la administración de costos, la cual, se enfoca en la estrategia de costos, dejando a un lado el coste de los productos y el control operativo”. 
 
     Separador 
-
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_1_2 1.2 Clasificación de los costos
     
