@@ -341,7 +341,7 @@
 
 
       figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Ejemplo del Estado de Situación Financiera de una empresa (2020).
-    
+
     Separador 
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_4_2 4.2 Estado de resultados
@@ -377,7 +377,7 @@
               p.mb-0 Utilidad.
             li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black" data-aos="fade-right")
               img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
-              p.mb-0 Perdidas.
+              p.mb-0 Pérdidas.
             li.d-flex.align-items-start.pb-2.mb-2(data-aos="fade-right")
               img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
               p.mb-0 Utilidad neta, o pérdida neta.
@@ -407,7 +407,7 @@
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Figura 13.
-        span Ejemplo Estructura básica del estado de resultados
+        span Ejemplo de estructura del estado de costo, producción y venta
       .tabla-a.color-primario.mb-3
         table
           thead
@@ -426,80 +426,80 @@
               td
             tr(data-aos="fade-right")
               td Inventario inicial de materia prima
-              td.fw-bold 75.00
+              td.fw-bold.text-end 75.000
               td
             tr(style="background-color: #F9FBFF" data-aos="fade-right")
               td + Compras netas de materia prima
-              td.fw-bold 43.500
+              td.fw-bold.text-end 43.500
               td
             tr(data-aos="fade-right")
               td Total de la materia prima disponible
-              td.fw-bold 118.500
+              td.fw-bold.text-end 118.500
               td
             tr(style="background-color: #F9FBFF" data-aos="fade-right")
               td - Inventario final de materia prima
-              td.fw-bold (31.500)
+              td.fw-bold.text-end (31.500)
               td
             tr(data-aos="fade-right")
               td Costo de materia prima utilizada
-              td.fw-bold 87.000
+              td.fw-bold.text-end 87.000
               td
             tr(style="background-color: #F9FBFF" data-aos="fade-right")
               td - Materia prima indirecta utilizada
-              td.fw-bold (12.000)
+              td.fw-bold.text-end (12.000)
               td
             tr(data-aos="fade-right")
               td Materia prima directa utilizada
-              td.fw-bold 75.000
+              td.fw-bold.text-end 75.000
               td
             tr(style="background-color: #F9FBFF" data-aos="fade-right")
               td + Mano de obra directa
-              td.fw-bold 45.000
+              td.fw-bold.text-end 45.000
               td
             tr(data-aos="fade-right")
               td.fw-bold Costo primo
-              td.fw-bold 120.000
+              td.fw-bold.text-end 120.000
               td
             tr(style="background-color: #F9FBFF" data-aos="fade-right")
               td + Gastos indirectos de fabricación
-              td.fw-bold 55.500
+              td.fw-bold.text-end 55.500
               td
             tr(data-aos="fade-right")
               td Costo de la producción del periodo
               td
-              td.fw-bold 175.500
+              td.fw-bold.text-end 175.500
             tr(style="background-color: #F9FBFF" data-aos="fade-right")
               td + Inventario inicial de producción en proceso
               td
-              td.fw-bold 35.000
+              td.fw-bold.text-end 35.000
             tr(data-aos="fade-right")
               td Total de la producción en proceso disponible
               td
-              td.fw-bold 210.000
+              td.fw-bold.text-end 210.500
             tr(style="background-color: #F9FBFF" data-aos="fade-right")
               td - Inventario final de producción en proceso
               td
-              td.fw-bold (42.500)
+              td.fw-bold.text-end (42.500)
             tr(data-aos="fade-right")
               td Costo de la producción terminada del periodo
               td
-              td.fw-bold 168.000
+              td.fw-bold.text-end 168.000
             tr(style="background-color: #F9FBFF" data-aos="fade-right")
               td + Inventario inicial de artículos terminados
               td
-              td.fw-bold 30.000
+              td.fw-bold.text-end 30.000
             tr(data-aos="fade-right")
               td Total de los artículos terminados disponibles
               td
-              td.fw-bold 198.000
+              td.fw-bold.text-end 198.000
             tr(style="background-color: #F9FBFF" data-aos="fade-right")
               td - Inventario final de artículos terminados
               td
-              td.fw-bold (10.000)
+              td.fw-bold.text-end (10.000)
             tr(data-aos="fade-right")
               td.fw-bold  Costo de ventas 
               td
-              td.fw-bold 188.000
+              td.fw-bold.text-end 188.000
       figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Contaestudio (2020).
     
     .bloque-texto-d.color-primario.p-4.col-lg-10.mx-auto.mb-5(style="border-top: 1px solid #12263F")
@@ -570,16 +570,16 @@
     p.mb-5(data-aos="fade-left") Para realizar el análisis financiero se deben aplicar unas fórmulas matemáticas con razones financieras, las cuales permiten tener diferentes perspectivas y puntos de vista del crecimiento y desarrollo financiero de la empresa. Así mismo, permiten valorar e interpretar la información obtenida que a la postre, será útil en la toma de decisiones a corto, mediano y largo plazo.
 
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
-      p.mb-0 El análisis financiero es importante en el estudio e interpretación de la información contable obtenida con el objeto de diagnosticar su situación actual y proyectar su futuro desarrollo. Este análisis de se pueden realizar de dos maneras: vertical y horizontal.
+      p.mb-0 El análisis financiero es importante en el estudio e interpretación de la información contable obtenida con el objeto de diagnosticar su situación actual y proyectar su futuro desarrollo. Este análisis se puede realizar de dos maneras: vertical y horizontal.
     
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta-edit-acordion" data-aos="zoom-in")
       .d-flex.flex-wrap(titulo="Análisis vertical")
         p.mb-5 Permite analizar el peso porcentual de cada componente de los estados financieros, es decir del balance general y el estado de resultados. Los resultados que arroje el análisis; son presentados en variaciones absolutas y relativas.
-        img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;" alt="Figura 14. Muestra un análisis vertical donde se describe las cuentas de la empresa los comparativos del año 2012, 2011 la variación y el porcentaje.")
+        img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.svg" style="max-width: 800px;" alt="Figura 14. Muestra un análisis vertical donde se describe las cuentas de la empresa los comparativos del año 2012, 2011 la variación y el porcentaje.")
         p.fw-bold.w-100.text-center Ejemplo de análisis vertical
       .d-flex.flex-wrap(titulo="Análisis horizontal")
         p.mb-5 Permite realizar un análisis de manera horizontal a los estados financieros y al balance general en 2 periodos (años) consecutivos para ver sus respectivas variaciones. Según Economipedia (2020) “El análisis horizontal calcula la variación absoluta y relativa que ha tenido cada una de las partidas del balance o la cuenta de resultados, en dos períodos de tiempo consecutivos”. Los resultados que arroje el análisis; son presentados en variaciones absolutas y relativas.
-        img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-17.jpg" style="max-width: 800px;" alt="Figura 15- Expone a través de un ejemplo el análisis horizontal con la descripción de la cuenta de resultados luego año 1 y año 2 acompañado de los valores de la variación absoluta y relativa.")
+        img.mb-2.mx-auto(src="@/assets/curso/temas/tema4/img-18.svg" style="max-width: 800px;" alt="Figura 15- Expone a través de un ejemplo el análisis horizontal con la descripción de la cuenta de resultados luego año 1 y año 2 acompañado de los valores de la variación absoluta y relativa.")
         p.fw-bold.w-100.text-center Ejemplo de análisis horizontal
 
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -592,7 +592,7 @@
     TabsB.color-primario.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="Indicadores de<br> liquidez y solvencia" :icono="require('@/assets/curso/temas/tema4/p-1.svg')")
         p Para Economipedia(2020) cada indicador de solvencia y de liquidez tiene una particularidad específica, <b>“La liquidez es la cualidad que tienen los activos financieros para convertirse en dinero, y por tanto, hacer frente a los compromisos de pago más inmediatos en un momento oportuno. Sin embargo, la solvencia es la capacidad que tiene una empresa para realizar sus pagos y cumplir con sus deudas financieras, para ello, hay que contar con los recursos suficientes como respaldo para cumplir con las obligaciones de la empresa”.</b>
-        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-13.svg" style="max-width: 925px" alt="Imagen que muestra la formula para los indicadores de liquides y solvencia ")
+        img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-13.svg" style="max-width: 925px" alt="Imagen que muestra la formula para los indicadores de liquidez y solvencia ")
       .py-4.py-md-5(titulo="Indicadores de<br> eficiencia" :icono="require('@/assets/curso/temas/tema4/p-2.svg')")
         p Nava (2009) <b>“Entre los indicadores de eficiencia o actividad están la rotación de activos totales, rotación de activos fijos, la rotación del inventario, rotación de las cuentas por cobrar, el período promedio de cobro y el período promedio de pago”</b>. Estos indicadores permiten medir la eficiencia de la organización, con el objeto de saber crecer y rendir los recursos disponibles.
         img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-14.svg" style="max-width: 948px" alt="Imagen que muestra las formulas para el indicador de eficiencia y se describen luego de la imagen.")
