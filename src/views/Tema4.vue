@@ -489,7 +489,7 @@
       .py-4.py-md-5(titulo="Indicadores de<br> endeudamiento" :icono="require('@/assets/curso/temas/tema4/p-3.svg')")
         p Para Nava (2009) <b>“Los indicadores de endeudamiento más significativos son: razón deuda, razón pasivo circulante y pasivo total, razón pasiva a largo plazo y pasivo total, y razón cobertura de intereses”</b>. Otorga una idea de la capacidad de endeudamiento de la empresa para futuras inversiones.
         img.ms-auto.me-lg-5(src="@/assets/curso/temas/tema4/img-15.svg" style="max-width: 948px" alt="Imagen que describe las fórmulas para el indicador de endeudamiento que se indican  luego de la imagen.")
-      .py-4.py-md-5(titulo="Indicadores<br< rentabilidad" :icono="require('@/assets/curso/temas/tema4/p-4.svg')")
+      .py-4.py-md-5(titulo="Indicadores<br> de rentabilidad" :icono="require('@/assets/curso/temas/tema4/p-4.svg')")
         p Para Nava (2009) <b>”Los indicadores de rentabilidad muestran los retornos netos obtenidos por las ventas y los activos disponibles, midiendo la efectividad del desempeño gerencial. Entre estos indicadores se encuentran el rendimiento sobre las ventas, el rendimiento sobre los activos y el rendimiento sobre el capital aportado por los accionistas”</b>.
         img.mx-auto(src="@/assets/curso/temas/tema4/img-16.svg" style="max-width: 697px" alt="Imagen que muestra un ejemplo de las fórmulas de un indicador de rentabilidad y se describen luego de la imagen.")
 
