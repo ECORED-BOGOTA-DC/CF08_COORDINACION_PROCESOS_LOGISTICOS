@@ -118,118 +118,228 @@
             tr(data-aos="fade-right")
               td
                 p.fw-bold Activo
-                p.fw-bold.mb-2 Activo corriente
-                p Caja
-                  br
-                  |Instituciones financieras
-                  br
-                  |Inversiones disponibles para la venta
-                  br
-                  |Documentos por cobrar comerciales
-                  br
-                  |Inversiones mantenidas hasta el vencimiento
-                  br
-                  |Inventarios
-                p.fw-bold.mb-2 Activo no corriente
-                p Edificios
-                  br
-                  |Vehiculos $7.689.432,00
-                  br
-                  |Maquinaria
-                  br
-                  |Propiedad, planta y equipo
-                  br
-                  |Inversiones de largo plazo
-                  br
-                  |Otros activos no corrientes
-                  br
-                  |Activo diferido
-
+                
               td
                 p.fw-bold $113.053.092,82
-                p.fw-bold.mb-2 $22.988.088,42
-                p.fw-bold $201,00
-                  br
-                  |$4.762.000,12
-                  br
-                  |$230.796,24
-                  br
-                  |$1.264.215,74
-                  br
-                  |$7.140.369,46
-                  br
-                  |$9.590.505,86
-                p.fw-bold.mb-2 $90.065.004,40
-                p.fw-bold $60.879.546,00
-                  br
-                  |$7.689.432,00
-                  br
-                  |$14.587.019,92
-                  br
-                  |$83.155.997,92
-                  br
-                  |$266.659,69
-                  br
-                  |$6.245.671,59
-                  br
-                  |$396.675,20
+                
               td
                 p.fw-bold Pasivo
-                p.fw-bold.mb-2 Pasivo corriente
-                p Documentos por pagar a bancos
-                  br
-                  |Cuentas por pagar a proveedores
-                  br
-                  |Otros pasivos corrientes
-                  br
-                  br
-                  |Pasivo no corriente
-                  br
-                  |Documentos por pagar a relacionados
-                  br
-                  |Documentos por pagar a bancos
-                  br
-                  |Otros pasivos no corriente
-
-                p.fw-bold.mb-2 Patrimonio
-                p Capital
-                  br
-                  |Reserva legal
-                  br
-                  |Reserva facultativa
-                  br
-                  |Utilidades acumuladas
-                  br
-                  |Utilidades del ejercicio
-
+                
               td
                 p.fw-bold $42.894.673,76
 
-                p.fw-bold.mb-2 $11.666.184,36
+            tr(data-aos="fade-right")
+              td
+                p.fw-bold Activo corriente
+                
+              td
+                p.fw-bold $22.988.088,42
+                
+              td
+                p.fw-bold Pasivo corriente
+                
+              td
+                p.fw-bold $11.666.184,36
+
+            tr(data-aos="fade-right")
+              td
+                p Caja
+                
+              td
+                p.fw-bold $201,00
+                
+              td
+                p Documentos por pagar a bancos
+                
+              td
                 p.fw-bold $1.500.000,00
-                  br
-                  |$5.321.438,76
-                  br
-                  |$4.844.745,60
 
+            tr(data-aos="fade-right")
+              td
+                p Instituciones financieras
+                
+              td
+                p.fw-bold $4.762.000,12
+                
+              td
+                p Cuentas por pagar a proveedores
+                
+              td
+                p.fw-bold $5.321.438,76
+
+            tr(data-aos="fade-right")
+              td
+                p Inversiones disponibles para la venta
+                
+              td
+                p.fw-bold $230.796,24
+                
+              td
+                p Otros pasivos corrientes
+                
+              td
+                p.fw-bold $4.844.745,60
+
+            tr(data-aos="fade-right")
+              td
+                p Documentos por cobrar comerciales
+                
+              td
+                p.fw-bold $1.264.215,74
+                
+              td
+                p
+                
+              td
+                p.fw-bold 
+
+            tr(data-aos="fade-right")
+              td
+                p Inversiones mantenidas hasta el vencimiento
+                
+              td
+                p.fw-bold $7.140.369,46
+                
+              td
+                p Pasivo no corriente
+                
+              td
                 p.fw-bold $31.228.489,40
-                  br
-                  |$5.824.035,75
-                  br
-                  |$22.994.065,93
-                  br
-                  |$2.410.387,72
 
-                p.fw-bold.mb-2 $70.158.419,06
+            tr(data-aos="fade-right")
+              td
+                p Inventarios
+                
+              td
+                p.fw-bold $9.590.505,86
+                
+              td
+                p Documentos por pagar a relacionados
+                
+              td
+                p.fw-bold $5.824.035,75
+
+
+            tr(data-aos="fade-right")
+              td
+                p 
+                
+              td
+                p.fw-bold 
+                
+              td
+                p Documentos por pagar a bancos
+                
+              td
+                p.fw-bold $22.994.065,93
+
+
+            tr(data-aos="fade-right")
+              td
+                p.fw-bold Activo no corriente
+                
+              td
+                p.fw-bold $90.065.004,40
+                
+              td
+                p.fw-bold Otros pasivos no corriente
+                
+              td
+                p.fw-bold $2.410.387,72
+
+            tr(data-aos="fade-right")
+              td
+                p Edificios
+                
+              td
+                p.fw-bold $60.879.546,00
+                
+              td
+                p.fw-bold 
+                
+              td
+                p.fw-bold 
+
+            tr(data-aos="fade-right")
+              td
+                p Vehiculos
+                
+              td
+                p.fw-bold $7.689.432,00
+                
+              td
+                p.fw-bold PATRIMONIO
+                
+              td
+                p.fw-bold $70.158.419,06
+
+            tr(data-aos="fade-right")
+              td
+                p Maquinaria
+                
+              td
+                p.fw-bold $14.587.019,92
+                
+              td
+                p Capital
+                
+              td
                 p.fw-bold $31.571.288,58
-                  br
-                  |$3.157.128,86
-                  br
-                  |$2.104.752,57
-                  br
-                  |$21.047.525,72
-                  br
-                  |$12.277.723,34
+
+            tr(data-aos="fade-right")
+              td
+                p Propiedad, planta y equipo
+                
+              td
+                p.fw-bold $83.155.997,92
+                
+              td
+                p Reserva legal
+                
+              td
+                p.fw-bold $3.157.128,86
+
+            tr(data-aos="fade-right")
+              td
+                p Inversiones de largo plazo
+                
+              td
+                p.fw-bold $266.659,69
+                
+              td
+                p Reserva facultativa
+                
+              td
+                p.fw-bold $2.104.752,57
+
+            tr(data-aos="fade-right")
+              td
+                p Otros activos no corrientes
+                
+              td
+                p.fw-bold $6.245.671,59
+                
+              td
+                p Utilidades acumuladas
+                
+              td
+                p.fw-bold $21.047.525,72
+
+            tr(data-aos="fade-right")
+              td
+                p Activo diferido
+                
+              td
+                p.fw-bold $396.675,20
+                
+              td
+                p Utilidades del ejercicio
+                
+              td
+                p.fw-bold $12.277.723,34
+
+
+
       figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Ejemplo del Estado de Situación Financiera de una empresa (2020).
     
     Separador 
