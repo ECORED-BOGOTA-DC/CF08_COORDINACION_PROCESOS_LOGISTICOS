@@ -109,7 +109,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'Presupuestos en los procesos logísticos',
+            titulo: 'Presupuestos en los procesos Logísticos',
             hash: 't_2_2',
           },
         ],
@@ -132,7 +132,7 @@ export default {
           },
           {
             numero: '4.3',
-            titulo: 'Estado de resultados',
+            titulo: 'Estado de costo producción y venta',
             hash: 't_4_3',
           },
           {

@@ -31,7 +31,7 @@
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
       p.mb-0 El estado de costo producción y venta es un estado financiero interno no oficial,  que refleja los costos de producción de los productos vendidos.
     
-    h4.mb-5.text-center(data-aos="fade-right") La información se ve reflejada en los estados financieros son:
+    h4.mb-5.text-center(data-aos="fade-right") La información que se ve reflejada en los estados financieros es:
 
     .col-xl-10.mx-auto.d-flex.flex-wrap.justify-content-center.mb-5
       .col-xxl.col-xl-2.col-lg-3.tarjeta-edit-1(data-aos="fade-right")
@@ -103,7 +103,7 @@
         p Diferencia entre la resta de los activos - pasivos. 
     
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
-      p.mb-0 Dentro de sus objetivos esta mostrar el estado actual de la situación financiera de la empresa, el valor de sus activos y pasivos y en que están representados, el capital actual, los excedentes de la empresa, entre otros. Este balance general, ver figura 11, se realiza en periodos anuales contables de conformidad con la Ley Estatutaria.
+      p.mb-0 Dentro de sus objetivos está mostrar el estado actual de la situación financiera de la empresa, el valor de sus activos y pasivos y en qué están representados, el capital actual, los excedentes de la empresa, entre otros. Este balance general, ver figura 11, se realiza en periodos anuales contables de conformidad con la Ley Estatutaria.
     
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
