@@ -132,7 +132,7 @@ export default {
           },
           {
             numero: '4.3',
-            titulo: 'Estado de resultados',
+            titulo: 'Estado de costo producción y venta',
             hash: 't_4_3',
           },
           {
@@ -200,7 +200,7 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Logística inversa',
       referencia:
         'Granada José Ivan. (2020). Logística inversa, más que un costo en la SCM. Revista zona logística.',
       tipo: 'Articulo web',
@@ -208,14 +208,14 @@ export default {
         'https://zonalogistica.com/logistica-inversa-mas-que-un-costo-en-la-scm/',
     },
     {
-      tema: '',
+      tema: 'Análisis financiero',
       referencia:
         'Instituto Nacional de Contadores públicos de Colombia. (2020). Principales indicadores financieros y de gestión.',
       tipo: 'PDF',
       link: 'https://incp.org.co/Site/2012/agenda/7-if.pdf',
     },
     {
-      tema: '',
+      tema: 'Normas Internacionales de Información Financiera - NIIF',
       referencia:
         'Martínez Pardo, K. (2017). Impacto operativo en el proceso de convergencia a las NICSP para las entidades de gobierno en Colombia. Universidad Militar nueva Granada.',
       tipo: 'PDF',
@@ -223,20 +223,21 @@ export default {
         'https://repository.unimilitar.edu.co/bitstream/handle/10654/16270/MartinezPardoKirthaMaitea2017.pdf?sequence=1&isAllowed=y',
     },
     {
-      tema: '',
-      referencia: 'Rosario J. (2020). Estructura de costos [video]. YouTube.',
+      tema: 'Diferencia entre costo y gastos de los procesos logísticos',
+      referencia:
+        'Rosario J. (2020). Estructura de costos de transporte [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=2kNhyeWe1kE',
     },
     {
-      tema: '',
+      tema: 'Estado de costo producción y venta',
       referencia:
         'Siguenza J. (2019). Estado de costo de producción y ventas y su incidencia en la mano de obra. [Trabajo de titulación, Universidad Técnica de machala].',
       tipo: 'PDF',
       link: 'http://repositorio.utmachala.edu.ec/handle/48000/14977',
     },
     {
-      tema: '',
+      tema: 'Los presupuestos',
       referencia:
         'Solo Contabilidad (s.f.). Práctica, Ejercicio de Presupuesto Maestro.',
       tipo: 'Página Web',
