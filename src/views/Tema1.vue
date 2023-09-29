@@ -14,7 +14,7 @@
         .bloque-texto-d.color-primario.p-4(style="border-top: 1px solid #12263F")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left(style="color: #91B3FA")
-            p.mb-0 Para las empresas, los costos logísticos tienen un rango desde el 4% hasta un 30% de las ventas. Los resultados de un reciente estudio mostrados en tabla 3, aunque los costos de la distribución física están cerca del 8% de las ventas, esta investigación no incluye costos de abastecimiento físico.
+            p.mb-0 Para las empresas, los costos logísticos tienen un rango desde el 4 % hasta un 30 % de las ventas. Los resultados de un reciente estudio mostrados en tabla 3, aunque los costos de la distribución física están cerca del 8 % de las ventas, esta investigación no incluye costos de abastecimiento físico.
             i.w-100.fas.fa-quote-right(style="color: #91B3FA")
           .bloque-texto-d__autor 
             .h5.mb-0 - Mora (2012)
@@ -68,7 +68,7 @@
           img(src='@/assets/curso/temas/tema1/img01.svg' alt="Imagen decorativa")
         .col-lg-8
           .cajon.color-primario.p-4.mb-4(data-aos="fade-left")
-            p.mb-0 Dentro de la alta gerencia se requiere una administración cuidadosa y controlada de los costos, que no afecte la operación normal, pero igualmente que no desborde hasta llevar a la empresa al colapso, información detallada, confiable y clara permite la correcta toma de decisiones, depende el tipo de empresa es la distribución de los costos en manufactura y en servicios, la globalización, la tecnología el e-comerce hace cada vez más acelerada administración de las empresas, en un mercado exigente y competitivo.
+            p.mb-0 Dentro de la alta gerencia se requiere una administración cuidadosa y controlada de los costos, que no afecte la operación normal, pero igualmente que no desborde hasta llevar a la empresa al colapso, información detallada, confiable y clara permite la correcta toma de decisiones, depende el tipo de empresa es la distribución de los costos en manufactura y en servicios, la globalización, la tecnología el <i>e-commerce</i> hace cada vez más acelerada administración de las empresas, en un mercado exigente y competitivo.
           p.mb-0(data-aos="fade-left") El enfoque de cliente y el aumento de las expectativas del consumidor ha cambiado aspectos como la calidad del producto, usos, características, acceso a la compra y al mismo ritmo las organizaciones realizan sus cambios, para dar respuesta oportuna a las nuevas exigencias de clientes y la evolución del mercado. Según Blocher (2008) nos indica en su libro sobre administración del costo “Los aspectos estratégicos son valiosos para la administración de costos, la cual, se enfoca en la estrategia de costos, dejando a un lado el coste de los productos y el control operativo”. 
 
     Separador 
@@ -107,29 +107,29 @@
             ul.lista-ul--separador
               li.pb-2.mb-2(style="border-bottom-style: dashed")
                 i.fas.fa-angle-right(style="color: #57DBD8; font-size: 20px")
-                | <b>Costos fijos:</b> son aquellos generados a partir de la actividad productiva o comercial que realice la empresa, aún si no hay actividades en la compañía los costos se generan: Arriendos, seguros, servicios públicos, vehículos entre otros.
+                p.mb-0 <b>Costos fijos:</b> son aquellos generados a partir de la actividad productiva o comercial que realice la empresa, aún si no hay actividades en la compañía los costos se generan: Arriendos, seguros, servicios públicos, vehículos entre otros.
               li.pb-2.mb-2(style="border-bottom-style: dashed")
                 i.fas.fa-angle-right(style="color: #57DBD8; font-size: 20px")
-                | <b>Costos Variables:</b> se generan y tiene variación a partir de la cantidad de producción que se genere en la empresa: materia prima, transporte, impuestos, comisiones sobre ventas.
+                p.mb-0 <b>Costos Variables:</b> se generan y tiene variación a partir de la cantidad de producción que se genere en la empresa: materia prima, transporte, impuestos, comisiones sobre ventas.
               li.pb-2.mb-2
                 i.fas.fa-angle-right(style="color: #57DBD8; font-size: 20px")
-                | <b>Costos semi-variables:</b> son aquellos que tienen un componente fijo, pero a su vez varía de acuerdo con modificaciones bruscas, tanto en el proceso de producción como en la venta.
+                p.mb-0 <b>Costos semi-variables:</b> son aquellos que tienen un componente fijo, pero a su vez varía de acuerdo con modificaciones bruscas, tanto en el proceso de producción como en la venta.
           div(numero="3" titulo="De acuerdo con su identificación con una actividad, departamento o producto")
             ul.lista-ul--separador.mt-4
               li.pb-2.mb-2(style="border-bottom-style: dashed")
                 i.fas.fa-angle-right(style="color: #57DBD8; font-size: 20px")
-                | <b>Costos directos:</b> son aquellos que intervienen directamente en la creación de un bien o servicio; materia prima, mano de obra, etc.
+                p.mb-0 <b>Costos directos:</b> son aquellos que intervienen directamente en la creación de un bien o servicio; materia prima, mano de obra, etc.
               li.pb-2.mb-2
                 i.fas.fa-angle-right(style="color: #57DBD8; font-size: 20px")
-                | <b>Costos Indirectos:</b> estos costos apoyan a la fabricación de la mercancía o prestación del servicio; servicios públicos.
+                p.mb-0 <b>Costos Indirectos:</b> estos costos apoyan a la fabricación de la mercancía o prestación del servicio; servicios públicos.
           div(numero="4" titulo="De acuerdo con el tiempo en el que fueron calculados")
             ul.lista-ul--separador
               li.pb-2.mb-2(style="border-bottom-style: dashed")
                 i.fas.fa-angle-right(style="color: #57DBD8; font-size: 20px")
-                | <b>Costos históricos:</b> son aquellos producidos en un momento específico, como los costos de los productos vendidos o de los que están proceso. Permiten pronosticar el comportamiento de los costos predeterminados.
+                p.mb-0 <b>Costos históricos:</b> son aquellos producidos en un momento específico, como los costos de los productos vendidos o de los que están en proceso. Permiten pronosticar el comportamiento de los costos predeterminados.
               li.pb-2.mb-2
                 i.fas.fa-angle-right(style="color: #57DBD8; font-size: 20px")
-                | <b>Costos predeterminados:</b> son todos aquellos costos estimados con datos estadísticos y son usados en el desarrollo de los presupuestos.
+                p.mb-0 <b>Costos predeterminados:</b> son todos aquellos costos estimados con datos estadísticos y son usados en el desarrollo de los presupuestos.
 
     .tarjeta-avatar-b.col-xl-11.me-xl-auto
       .tarjeta-avatar-b__img(data-aos="fade-right")
@@ -150,7 +150,7 @@
         .bloque-texto-d.color-primario.px-4.mb-3(style="border-top: none" data-aos="fade-left")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left(style="color: #91B3FA")
-            p.mb-0 Los costos hacen un recorrido a lo largo de la cadena de suministros “El flujo y el almacenamiento del producto determinan el costo transversal de la cadena de suministro”.
+            p.mb-0 Los costos hacen un recorrido a lo largo de la cadena de suministros. El flujo y el almacenamiento del producto determinan el costo transversal de la cadena de suministro.
             i.w-100.fas.fa-quote-right(style="color: #91B3FA")
           .bloque-texto-d__autor 
             .h5.mb-0 - Castro (2016)
@@ -308,7 +308,7 @@
       img.col-lg-4.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-13.svg" style="max-width: 400px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.ps-lg-4
         p(data-aos="fade-left") Dentro del ideal de la operación logística en las organizaciones no debería existir La logística inversa, se ha convertido en un cuello de botella y un costo que incremente y preocupa día a día a la cadena de suministros (especialmente en épocas de crisis y de emergencias). Las devoluciones como comúnmente se denominan, cuentan con un área específica y personal para su respectiva atención.
-        p(data-aos="fade-left") Este reproceso ha tenido un aumento creciente en estos tiempos del e-comerce por las dificultades que tiene el cliente para ver físicamente el producto, lo que ocasiona incertidumbre al momento de la compra, puesto que no está seguro de la compra, como lo haría tradicionalmente en un almacén de manera presencial. 
+        p(data-aos="fade-left") Este reproceso ha tenido un aumento creciente en estos tiempos del <i>e-commerce</i> por las dificultades que tiene el cliente para ver físicamente el producto, lo que ocasiona incertidumbre al momento de la compra, puesto que no está seguro de la compra, como lo haría tradicionalmente en un almacén de manera presencial. 
         .cajon.color-secundario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
           p.mb-0 Es importante hacer claridad que logística inversa se le denomina también a la reutilización de los desechos generados en los procesos de devolución de mercancías y disminución del impacto ambiental. 
 
@@ -321,7 +321,7 @@
         .h5.mb-0 - Cure (2011)
     
 
-    .tarjeta.color-primario.p-3.col-lg-10.mx-auto(style="background: linear-gradient(180deg, rgba(86,140,253,1) 0%, rgba(26,15,145,1) 100%);")
+    //.tarjeta.color-primario.p-3.col-lg-10.mx-auto(style="background: linear-gradient(180deg, rgba(86,140,253,1) 0%, rgba(26,15,145,1) 100%);")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1(data-aos="fade-right")
           img(src="@/assets/curso/temas/decorador-5.svg" alt="Imagen decorativa")
@@ -361,7 +361,7 @@
         h5 Figura 3.
         span Método de costos ocultos
       figure
-        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-16.svg" style="max-width: 821px;" data-aos="fade-left" alt="Figura 3. expone de manera circular el método de los costos ocultos donde inicia con: Condiciones de costo Organizaciones de trabajo Gestión del tiempo Comunicación - coordinación-concertación. formación integrada y finaliza con Implementación estratégica.")
+        img.mx-auto.mb-4(src="@/assets/curso/temas/tema1/img-16.svg" style="max-width: 821px;" data-aos="fade-left" alt="Figura 3. expone de manera circular el método de los costos ocultos donde inicia con: Condiciones de trabajo Organizaciones de trabajo Gestión del tiempo Comunicación - coordinación-concertación. formación integrada y finaliza con Implementación estratégica.")
         figcaption(style="font-weight: normal") <b>Nota.</b> Adaptado de Campos de acción del método de los costos ocultos (2014).
 
     Separador 
@@ -395,7 +395,7 @@
     .cajon.color-secundario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
       p.mb-0 Los costos de calidad son una herramienta para descubrir oportunidades que conduzcan a procesos de mejora continua. Se deben considerar como una inversión a largo plazo, constante 24/7, para garantizar las condiciones y que el cliente se sienta a gusto con la organización. Esto se logra por medio de programas asumidos por las directivas para lograr mayor competitividad.
     
-    p.mb-5(data-aos="fade-right") En la siguiente figura 4 se observa cuales conceptos hacen parte de los costos de calidad. Gillezeau, P., & Romero, S. (2004):
+    p.mb-5(data-aos="fade-right") En la siguiente figura 4 se observa cuáles conceptos hacen parte de los costos de calidad. Gillezeau, P., & Romero, S. (2004):
 
     .mx-auto.col-lg-10.mb-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")

@@ -43,7 +43,7 @@
     .d-flex.flex-wrap.mb-5
       img.col-lg-4.col-xl-3.col-md-5.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/img-5.png" style="max-width: 295px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.col-xl-9.col-md-7.ps-md-4
-        p La contabilidad de costos o contabilidad analítica es una metodología contable con el objetivo de generar información sobe los costos desarrollados en la producción de mercancías o servicios. 
+        p La contabilidad de costos o contabilidad analítica es una metodología contable con el objetivo de generar información sobre los costos desarrollados en la producción de mercancías o servicios. 
         .d-flex.flex-wrap
           ul.lista-ul--separador.col-lg-6.pe-lg-3.mb-0
             li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed" data-aos="fade-right")
@@ -102,7 +102,7 @@
       .col-lg-8.col-xl-9.col-md-7.ps-md-4
         p(data-aos="fade-left") Los sistemas de costeo más relevante, que se aplica en las organizaciones y que los estudiosos del tema, han denominado Actividad Basada en Costos (ABC), permite a las organizaciones asignar los costos de manera proporcional a su participación en la elaboración de productos y servicios y por su precisión es aconsejable su uso. 
         .cajon.color-primario.p-4.mb-3(data-aos="fade-left" style="background-color: #E0F4FE")
-          p.mb-0 Según el portal <a href="https://www.gerencie.com/" target="_blank" style="color: #111e61; font-weight: 900">www.gerencie.com</a> el <em>Active Based Costing</em>, por sus siglas en inglés, es un sistema de costos frecuentemente utilizado por las organizaciones actuales, lo cual remplazó los sistemas obsoletos de administración. 
+          p.mb-0 Según el portal <a href="https://www.gerencie.com/" target="_blank" style="color: #111e61; font-weight: 900">www.gerencie.com</a> el <em>Active Based Costing</em>, por sus siglas en inglés, es un sistema de costos frecuentemente utilizado por las organizaciones actuales, lo cual reemplazó los sistemas obsoletos de administración. 
         p.mb-0(data-aos="fade-left") La Actividad Basada en Costos (ABC), considerada actualmente el sistema de costeo más moderno del mundo, se puede aplicar de diferente forma:
 
     .tarjeta--container.row.mb-5
@@ -138,7 +138,7 @@
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2#t_2_2 2.2 Diferencia entre costo y gastos de los procesos logísticos
     
-    p.mb-5(data-aos="fade-right") Se ha presentado un dilema para los estudiosos de procesos logísticos sobre los costos y gastos a lo largo de los tiempos y la necesidad de hacer claridad entre los costos y gastos, diferencias para ser aplicada especialmente en los procesos operativos logísticos y la definición final de los costos incurridos en la elaboración de un producto y la prestación servicio. 
+    p.mb-5(data-aos="fade-right") Se ha presentado un dilema para los estudiosos de procesos logísticos sobre los costos y gastos a lo largo de los tiempos y la necesidad de hacer claridad entre los costos y gastos, diferencias para ser aplicada especialmente en los procesos operativos logísticos y la definición final de los costos incurridos en la elaboración de un producto y la prestación de servicio. 
 
     .d-flex.flex-wrap.mb-5
       img.col-lg-4.col-xl-3.col-md-5.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema2/img-12.png" style="max-width: 295px;" data-aos="fade-right" alt="Imagen decorativa")
@@ -183,6 +183,10 @@
               li.d-flex.align-items-start.pb-2.mb-2
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 <b>Costo de mantener inventario:</b> costo de capital invertido e inmovilizado, almacenamiento, personal, seguros, almacenamiento, transporte interno de materia prima. Este costo se genera además, en varios procesos de la cadena de suministros.
+              li.d-flex.align-items-start.pb-2.mb-2
+                img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
+                p.mb-0 <b>Costo de pedido:</b> los recursos humanos, técnicos, físicos y financieros que se invierten para realizar los pedidos.
+
         .tarjeta-avatar-b.col-xl-11.me-xl-auto
           .tarjeta-avatar-b__img
             img.mx-auto(src='@/assets/curso/temas/img-2.svg' style="max-width: 104px" alt="Imagen decorativa")
@@ -199,7 +203,7 @@
             ul.lista-ul--separador.mb-0
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
-                p.mb-0 <b>Costo de mantenimiento de inventarios:</b> costo de capital invertido e inmovilizado, almacenamiento, personal, seguros, almacenamiento, transporte interno de materia prima y también ser llaman costos de conservación de los inventarios.
+                p.mb-0 <b>Costo de mantenimiento de inventarios:</b> costo de capital invertido e inmovilizado, almacenamiento, personal, seguros, almacenamiento, transporte interno de materia prima y también se llaman costos de conservación de los inventarios.
               li.d-flex.align-items-start.pb-2.mb-2(style="border-bottom-style: dashed; border-color: black")
                 img.pt-1.me-2(src="@/assets/curso/temas/decorador-1.svg" style="max-width: 15px;")
                 p.mb-0 <b>Costo de pedidos:</b> son los que incurren en el momento de realizar el reabastecimiento y recompra de materia prima, insumos, maquinaria entre otros.
@@ -231,59 +235,59 @@
                 td(style="vertical-align: sub")
                   p <b>1.</b> Interés sobre el capital invertido en:
                     br
-                    |- Inventario
+                    |- Inventario.
                     br
-                    |- equipo para almacenamiento
+                    |- equipo para almacenamiento.
                     br
                     br
                   p <b>2.</b> Espacio de almacenaje:
-                    |- Mantenimiento, rentas, impuesto predial
+                    |- Mantenimiento, rentas, impuesto predial.
                     br
-                    |- Calefacción, costo de servicio auxiliar
+                    |- Calefacción, costo de servicio auxiliar.
                     br
-                    |- Limpieza
+                    |- Limpieza.
                     br
-                    |- Depreciaciones o amortizaciones
+                    |- Depreciaciones o amortizaciones.
                     br
                     br
                   p <b>3.</b> Costo de servicio de inventario:
                     br
-                    |- Seguro de instalaciones e inventario
+                    |- Seguro de instalaciones e inventario.
                     br
-                    |- Costo recepción y almacenamiento
+                    |- Costo recepción y almacenamiento.
                     br
-                    |- Robos, deterioro y obsolescencia
+                    |- Robos, deterioro y obsolescencia.
                     br
-                    |- Registro y control del inventario
+                    |- Registro y control del inventario.
                     br
                     br
-                  p <b>4.</b> Riesgo del inventario
+                  p <b>4.</b> Riesgo del inventario.
                     br
-                    |- Disminución de precio
+                    |- Disminución de precio.
                     br
-                    |- Cambio de estilo, época
+                    |- Cambio de estilo, época.
                 td(style="vertical-align: sub")
-                  p <b>1.</b> Preparar requisición
-                  P <b>2.</b> Proceso de investigación y mercado de colocación
-                  P <b>3.</b> Activación de orden de compra
-                  P <b>4.</b> Análisis e inspección
-                  P <b>5.</b> Muestra control de calidad
-                  P <b>6.</b> Costo de la orden
-                  P <b>7.</b> Recepción y revisión de cuentas por pagar
-                  P <b>8.</b> Registro y control de compras
-                  P <b>9.</b> Fletes, acarreos, maniobras
+                  p <b>1.</b> Preparar requisición.
+                  P <b>2.</b> Proceso de investigación y mercado de colocación.
+                  P <b>3.</b> Activación de orden de compra.
+                  P <b>4.</b> Análisis e inspección.
+                  P <b>5.</b> Muestra control de calidad.
+                  P <b>6.</b> Costo de la orden.
+                  P <b>7.</b> Recepción y revisión de cuentas por pagar.
+                  P <b>8.</b> Registro y control de compras.
+                  P <b>9.</b> Fletes, acarreos, maniobras.
                   P <b>10.</b> Teléfono, internet, fax.
-                  P <b>11.</b> Contabilidad y auditoria de inventario
-                  P <b>12.</b> Costo
+                  P <b>11.</b> Contabilidad y auditoria de inventario.
+                  P <b>12.</b> Costo.
 
                 td(style="vertical-align: sub")
-                  p <b>1.</b> Disminución de utilidades por ventas perdidas
-                  p <b>2.</b> Publicidad o promociones no aprovechadas
-                  p <b>3.</b> Interrupción de los programas de producción
-                  p <b>4.</b> Esfuerzos administrativos especiales
-                  p <b>5.</b> Tiempo ocioso del personal y equipo
-                  p <b>6.</b> Perdida de clientes
-                  p <b>7.</b> Pérdida de crédito mercantil
+                  p <b>1.</b> Disminución de utilidades por ventas perdidas.
+                  p <b>2.</b> Publicidad o promociones no aprovechadas.
+                  p <b>3.</b> Interrupción de los programas de producción.
+                  p <b>4.</b> Esfuerzos administrativos especiales.
+                  p <b>5.</b> Tiempo ocioso del personal y equipo.
+                  p <b>6.</b> Perdida de clientes.
+                  p <b>7.</b> Pérdida de crédito mercantil.
       .d-flex.flex-wrap(titulo="Costos de almacenamiento")
         .d-flex.flex-wrap.align-items-center.p-3.mb-5(style="background-color: white;")
           img.mb-4.mb-md-auto.mx-auto.mb-4(src="@/assets/curso/temas/tema2/img-4.svg" style="max-width: 136px;" alt="Imagen decorativa")

@@ -10,7 +10,7 @@
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
       img.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema3/img-1.png" style="max-width: 505px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.col-xl-7.ps-lg-4
-        p(data-aos="fade-left") Son considerados la mayor planificación anticipada de ingresos y egresos de una organización empresarial y se realiza con el objetivo cumplir con las metas establecidas, los responsables y monitoreo constante de las diferentes áreas comprometidas, pero especialmente en estar comprometidos con la alta dirección estratégica de la organización.
+        p(data-aos="fade-left") Son considerados la mayor planificación anticipada de ingresos y egresos de una organización empresarial y se realiza con el objetivo de cumplir con las metas establecidas, los responsables y monitoreo constante de las diferentes áreas comprometidas, pero especialmente en estar comprometidos con la alta dirección estratégica de la organización.
         .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
           p.mb-0 El presupuesto tiene unas fases que se deben abordar en las empresas, para finalmente lograr su respectiva aprobación: elaboración, aprobación, ejecución, control y evaluación; esta última fase con la responsabilidad de evaluar los resultados obtenidos.
     
@@ -89,7 +89,7 @@
               p.text-small Para una ampliación del tema sobre presupuestos, visitar la página Gestion.Org. 
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.gestion.org/que-es-un-presupuesto/" target="_blank" style="background-color: #E6B046")
-                span Ver video
+                span Ir a página
                 i.fas.fa-link
       
     .tarjeta.color-primario.p-3.col-lg-10.mx-auto.mb-4(style="background: linear-gradient(180deg, #2C6AEB 0%, rgba(26,15,145,1) 100%);" data-aos="fade-right")
@@ -103,13 +103,13 @@
               p.text-small Ver ejercicios prácticos de presupuesto maestro en el siguiente enlace, Solo Contabilidad. 
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.solocontabilidad.com/costos-ejercicios/practica-ejercicio-de-presupuesto-maestro-costos-presupuesto" target="_blank" style="background-color: #E6B046")
-                span Ver video
+                span Ir a página
                 i.fas.fa-link
 
     Separador 
 
     .titulo-segundo.color-acento-botones(data-aos="fade-right")
-      h2#t_3_2 3.2 Presupuestos en los procesos logísticos
+      h2#t_3_2 3.2 Presupuestos en los procesos Logísticos
     
     p.mb-5 Se realizan los presupuestos en todos los niveles: estratégico, táctico y operativo. Empiezan desde la alta dirección con las metas y objetivos organizacionales trazados y son importantes para la toma de decisiones en las empresas, negocio o idea de un proyecto. 
 
