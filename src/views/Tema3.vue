@@ -10,7 +10,7 @@
     .d-flex.flex-wrap.align-items-start.mb-5.position-relative
       img.col-lg-4.col-xl-5.mx-auto.mb-4(src="@/assets/curso/temas/tema3/img-1.png" style="max-width: 505px;" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.col-xl-7.ps-lg-4
-        p(data-aos="fade-left") Son considerados la mayor planificación anticipada de ingresos y egresos de una organización empresarial y se realiza con el objetivo cumplir con las metas establecidas, los responsables y monitoreo constante de las diferentes áreas comprometidas, pero especialmente en estar comprometidos con la alta dirección estratégica de la organización.
+        p(data-aos="fade-left") Son considerados la mayor planificación anticipada de ingresos y egresos de una organización empresarial y se realiza con el objetivo de cumplir con las metas establecidas, los responsables y monitoreo constante de las diferentes áreas comprometidas, pero especialmente en estar comprometidos con la alta dirección estratégica de la organización.
         .cajon.color-primario.p-4.mb-4(data-aos="fade-left" style="background-color: #E0F4FE")
           p.mb-0 El presupuesto tiene unas fases que se deben abordar en las empresas, para finalmente lograr su respectiva aprobación: elaboración, aprobación, ejecución, control y evaluación; esta última fase con la responsabilidad de evaluar los resultados obtenidos.
     

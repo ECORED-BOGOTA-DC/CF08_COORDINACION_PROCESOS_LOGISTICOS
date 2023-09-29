@@ -1,1 +1,1 @@
-module.exports = 'Costeo de procesos logístico'
+module.exports = 'Costeo de procesos logísticos'

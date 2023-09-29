@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Costeo de procesos logístico',
+    componenteFormativo: 'Costeo de procesos logísticos',
     descripcionCurso:
       'La administración eficiente de costos es esencial para lograr precios competitivos y mantener la calidad en un mercado volátil. La contabilidad de costos en procesos logísticos revela costos en la cadena de suministro. El capítulo de presupuestos proporciona herramientas para proyectar los recursos económicos de la organización. Este componente formativo brinda conocimientos sólidos sobre la salud financiera a través de los estados financieros y los indicadores de gestión financiera.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
@@ -71,7 +71,7 @@ export default {
           },
           {
             numero: '1.7',
-            titulo: 'Costos de calidad',
+            titulo: 'Conceptos básicos de economía',
             hash: 't_1_7',
           },
         ],
