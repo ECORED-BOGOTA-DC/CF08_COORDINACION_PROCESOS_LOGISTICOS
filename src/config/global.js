@@ -105,12 +105,12 @@ export default {
           {
             numero: '3.1',
             titulo: 'Presupuesto maestro',
-            hash: 't_2_1',
+            hash: 't_3_1',
           },
           {
             numero: '3.2',
             titulo: 'Presupuestos en los procesos Logísticos',
-            hash: 't_2_2',
+            hash: 't_3_2',
           },
         ],
       },
